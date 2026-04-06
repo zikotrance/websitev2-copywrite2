@@ -3,7 +3,7 @@
 **Status**: LIVING DOCUMENT — Updated after every intervention
 **Last Updated**: 2026-04-07
 **Updated by**: GLM (Senior Conversion Architect)
-**Phase**: Governance Foundation
+**Phase**: Gate 1 — Governance Foundation (DRAFT, not yet owner-approved)
 
 ---
 
@@ -14,7 +14,7 @@
 | **Phase Name** | Foundation / Governance Setup |
 | **Phase Number** | 0 (pre-production) |
 | **Objective** | Establish immutable master document and workprogress tracking |
-| **Status** | IN PROGRESS |
+| **Status** | DRAFT — awaiting owner validation (correction pass applied per v1.2) |
 | **Started** | 2026-04-07 |
 | **Expected Completion** | Pending owner validation of governance docs |
 
@@ -28,10 +28,10 @@
 | **Pages complete** | 0 (none validated by owner yet) |
 | **Pages in draft** | 35 |
 | **Pages missing** | See section 6 |
-| **Governance documents** | 2/2 created (Master + WorkProgress) |
+| **Governance documents** | 2/2 created (Master v1.2 + WorkProgress) — NOT YET OWNER-APPROVED |
 | **Site build status** | NOT STARTED — copywrite phase only |
 | **Deployment status** | NOT STARTED |
-| **Overall project health** | AMBER — strong content foundation, structural gaps identified |
+| **Overall project health** | AMBER — governance drafted, correction pass applied, awaiting G1 approval |
 
 ---
 
@@ -50,13 +50,15 @@
 
 ### 4.1 File Listing
 
+> **PROVISIONAL AUDIT NOTE**: The word counts and file inventory below represent a **provisional baseline audit** conducted on 2026-04-07. These counts were generated using a raw text-counting method and have NOT been validated against a normalized counting standard. They should be treated as directional indicators, not absolute truth. The normalized counting method (excluding markdown syntax, tables, metadata, and code blocks) will be validated at Gate 2. Until then, all page-depth assessments referencing these numbers are advisory.
+
 | # | File | Type | Words | Status |
 |---|------|------|-------|--------|
 | 00 | 00_MASTER-GUIDELINES.md | Legacy Master | 2,264 | SUPERSEDED by docs/00_MASTER_SYSTEM.md |
-| 01 | 01_HOMEPAGE.md | Homepage | 4,262 | Draft — rich, needs validation |
-| 02 | 02_INDUSTRIES-HOTELS.md | Industry | 499 | ⚠️ SHORT — below 800 word minimum |
-| 03 | 03_INDUSTRIES-REAL-ESTATE.md | Industry | 479 | ⚠️ SHORT — below 800 word minimum |
-| 04 | 04_INDUSTRIES-SENIOR-LIVING.md | Industry | 472 | ⚠️ SHORT — below 800 word minimum |
+| 01 | 01_HOMEPAGE.md | Homepage | 4,262 | Draft — needs validation against contextual depth model (Section I.0) |
+| 02 | 02_INDUSTRIES-HOTELS.md | Industry | 499 | ⚠️ LIKELY THIN — fails multiple Section I.0.2 tests (see correction pass notes) |
+| 03 | 03_INDUSTRIES-REAL-ESTATE.md | Industry | 479 | ⚠️ LIKELY THIN — fails multiple Section I.0.2 tests |
+| 04 | 04_INDUSTRIES-SENIOR-LIVING.md | Industry | 472 | ⚠️ LIKELY THIN — fails multiple Section I.0.2 tests |
 | 05 | 05_SOLUTIONS-LED-MIRRORS.md | Solution | 1,472 | Draft — good depth |
 | 06 | 06_SOLUTIONS-SMART-MIRRORS.md | Solution | 1,655 | Draft — good depth |
 | 07 | 07_SOLUTIONS-MEDICINE-CABINETS.md | Solution | 1,881 | Draft — good depth |
@@ -70,7 +72,7 @@
 | 15 | 15_CASE-STUDIES-MIXED-USE.md | Case Study | 1,090 | Draft — adequate depth |
 | 16 | 16_CASE-STUDIES-BOUTIQUE-HOTEL.md | Case Study | 1,051 | Draft — adequate depth |
 | 17 | 17_SUPPORT-ABOUT.md | Support | 1,462 | Draft — good depth |
-| 18 | 18_SUPPORT-CONTACT.md | Support | 709 | ⚠️ SHORT — below 800 word minimum |
+| 18 | 18_SUPPORT-CONTACT.md | Support | 709 | Draft — assess against contextual depth model (may be adequate for a contact page) |
 | 19 | 19_SUPPORT-FAQ.md | Support | 1,492 | Draft — good depth |
 | 20 | 20_SUPPORT-WARRANTY.md | Support | 1,042 | Draft — adequate depth |
 | 21 | 21_SUPPORT-SHIPPING.md | Support | 878 | Draft — near minimum |
@@ -90,8 +92,8 @@
 
 | File | Path | Status |
 |------|------|--------|
-| Master System | docs/00_MASTER_SYSTEM.md | ✅ CREATED — Pending owner validation |
-| Work Progress | docs/01_WORKPROGRESS.md | ✅ CREATED — This file |
+| Master System | docs/00_MASTER_SYSTEM.md | ⚠️ CREATED v1.2 — Correction pass applied. NOT YET OWNER-APPROVED. |
+| Work Progress | docs/01_WORKPROGRESS.md | ⚠️ CREATED — This file. NOT YET OWNER-APPROVED. |
 
 ---
 
@@ -138,17 +140,17 @@
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
-| **All 3 industry pages under 500 words** | Fails minimum word count rule (800 words). Shallow content, poor conversion potential, weak SEO. | 🔴 P0 |
+| **All 3 industry pages fail Section I.0.2 depth tests** | Pages trigger multiple insufficiency criteria: buyer cannot determine full value, fewer than 3 criteria communicated, no objection handling, could apply to generic competitor. Depth must be addressed regardless of final word count. | 🔴 P0 |
 | **No catalog pages for Shower Glass** | Solution page exists but no product detail pages. Dead-end for buyers evaluating shower glass. | 🔴 P0 |
 | **No catalog pages for Architectural Glass** | Solution page exists but no product detail pages. Dead-end for buyers. | 🔴 P0 |
 | **No catalog pages for Standard Mirrors** | Solution page exists but no product detail pages. Dead-end for buyers. | 🔴 P0 |
-| **Contact page under 800 words** | Fails minimum word count for content pages. Weak support experience. | 🟡 P1 |
+| **Contact page may be thin** | Assessment needed against Section I.0 contextual depth model — a contact page serving utility may require less depth than an industry page. Not automatically a failure. | 🟡 P1 |
 
 ### 6.2 MODERATE Issues (Fix During Content Revision)
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
-| **Case studies near minimum word count** | 966-1,110 words — above 800 minimum but could benefit from deeper narrative | 🟡 P1 |
+| **Case studies depth assessment** | Per Section I.0, case study depth is driven by narrative credibility, not word count alone. Some may be adequate; assessment per page needed. | 🟡 P1 |
 | **No mixed-use industry page** | Mixed-use is referenced in case studies but has no dedicated industry page | 🟡 P1 |
 | **No commercial office industry page** | Referenced in about page as a vertical but no dedicated page | 🟡 P2 |
 | **Legacy master still in root** | 00_MASTER-GUIDELINES.md is superseded but still present — may cause confusion | 🟢 P2 |
@@ -177,7 +179,7 @@
 | 7 conversion frameworks (MECLABS, Hormozi, etc.) | 2026-04-07 | Inherited | From 00_MASTER-GUIDELINES.md |
 | English as primary site language | 2026-04-07 | Inherited | All content files in English |
 | No code/design/deployment in this phase | 2026-04-07 | Owner | Explicit constraint |
-| Minimum 800 words for content pages (new rule) | 2026-04-07 | Master System | Stricter than legacy 150-word minimum |
+| Minimum 800 words for content pages (legacy rule — REPLACED by contextual depth model v1.2) | 2026-04-07 | Master System v1.1 | Superseded by Section I.0 in v1.2 — depth is now role/awareness/complexity/objection/proof-based |
 | Page-type frameworks defined for 7 page types | 2026-04-07 | Master System | New structural governance |
 
 ---
@@ -204,7 +206,7 @@
 
 | Risk | Severity | Mitigation |
 |------|----------|------------|
-| **Industry pages are critically short** | HIGH | Must be expanded to 800+ words before any production. Current content is essentially wireframe-level, not conversion-ready. |
+| **Industry pages critically thin** | HIGH | Must pass Section I.0.2 depth insufficiency tests. Current content is wireframe-level, not conversion-ready. Word count is a symptom, not the root problem. |
 | **3 solution categories have no catalog pages** | HIGH | Creates dead-ends in the conversion funnel. Buyers reaching solution pages for shower, architectural, or standard mirrors have no product pages to navigate to. |
 | **No pricing data** | MEDIUM | Catalog pages contain "$XXX" placeholders. Cannot launch without real pricing. |
 | **Inconsistent depth across page families** | MEDIUM | Solution pages (avg 1,895 words) vs. industry pages (avg 483 words) creates uneven user experience. |
@@ -221,33 +223,83 @@
 
 | Contradiction | Location | Resolution |
 |--------------|----------|------------|
-| Industry pages fail minimum word count rule (Section I.2: 800 words) | Files 02, 03, 04 | Must expand during revision phase |
-| Contact page fails minimum word count rule (Section I.5: 600 words) | File 18 (709 words) | Actually passes 600-word minimum, but is close. Should be enriched. |
-| Legacy master allowed 150 words per section — new master requires 150-200 words AND 800 words per content page | New standard is stricter | New standard prevails per immutability protocol |
+| Industry pages fail contextual depth tests (Section I.0.2) | Files 02, 03, 04 | Must address depth insufficiency criteria during revision phase |
+| Contact page may not meet depth expectations (Section I.0.2) | File 18 (709 words) | Assessment needed per contextual model — contact page depth requirements differ from content pages |
+| Legacy master allowed 150 words per section — new master requires 150-200 words AND contextual depth per Section I.0 | New standard is stricter AND more flexible — depth is driven by context, not arbitrary page-level minimums | New standard prevails per immutability protocol |
 
 ---
 
-## 10. Immediate Next Actions
+## 10. Gate Status
+
+| Gate | Name | Status | Deliverable |
+|------|------|--------|-------------|
+| **G1** | Governance Foundation | ⚠️ DRAFT — correction pass applied, awaiting owner approval | Master System v1.2 + WorkProgress |
+| **G2** | Conversion Architecture | NOT STARTED — blocked by G1 | Final sitemap, navigation, page hierarchy, CTA flow, production order |
+| **G3** | Page Models and Prioritization | NOT STARTED — blocked by G2 | Per-page content models, production priority matrix |
+| **G4** | Content Production | NOT STARTED — blocked by G3 | Full page content per approved models |
+| **G5** | Site Build | NOT STARTED — blocked by G4 | Functional website with all content |
+| **G6** | QA / CRO / SEO Validation | NOT STARTED — blocked by G5 | QA checklist passed, CRO review, SEO audit |
+| **G7** | Deployment | NOT STARTED — blocked by G6 | Live website, owner sign-off |
+
+---
+
+## 11. Immediate Next Actions
+
+> **IMPORTANT**: Per the gated execution model (Master Section O), the next phase after G1 approval is **Gate 2 — Conversion Architecture**. NO page content production (expansion, revision, or creation) may begin until G2 is validated. The actions below reflect this constraint.
+
+### G1 — Governance Foundation (CURRENT — BLOCKING)
 
 | # | Action | Priority | Dependency | Estimated Effort |
 |---|--------|----------|------------|-----------------|
-| 1 | **Owner validates governance documents** | 🔴 P0 | None (blocking) | Owner review |
-| 2 | **Expand 3 industry pages to 800+ words each** | 🔴 P0 | #1 | 1 turn per page (3 turns) |
-| 3 | **Define product catalog for Shower Glass** | 🔴 P0 | #1 | 1 turn (product names, slugs) |
-| 4 | **Define product catalog for Architectural Glass** | 🔴 P0 | #1 | 1 turn (product names, slugs) |
-| 5 | **Define product catalog for Standard Mirrors** | 🔴 P0 | #1 | 1 turn (product names, slugs) |
-| 6 | **Create shower glass catalog pages** | 🔴 P0 | #3 | 1-2 turns per product |
-| 7 | **Create architectural glass catalog pages** | 🔴 P0 | #4 | 1-2 turns per product |
-| 8 | **Create standard mirror catalog pages** | 🔴 P0 | #5 | 1-2 turns per product |
-| 9 | **Review and enrich case studies** | 🟡 P1 | #1 | 0.5 turn per study |
-| 10 | **Review and enrich contact page** | 🟡 P1 | #1 | 0.5 turn |
-| 11 | **Replace all "$XXX" pricing placeholders** | 🟡 P1 | Owner provides pricing | N/A |
-| 12 | **Decide on mixed-use and commercial office industry pages** | 🟡 P1 | #1 | Owner decision |
-| 13 | **Final QA pass on all pages** | 🟡 P1 | All above | 1-2 turns |
+| 1 | **Owner reviews and approves governance documents (Master v1.2 + WorkProgress)** | 🔴 P0 | None (blocking ALL gates) | Owner review |
+| 1a | Owner confirms or amends the contextual depth model (Section I.0) | 🔴 P0 | #1 | Owner decision |
+| 1b | Owner confirms or amends the gated execution model (Section O) | 🔴 P0 | #1 | Owner decision |
+| 1c | Owner confirms which open questions (Section 8) to resolve now vs. defer | 🟡 P1 | #1 | Owner decision |
+
+### G2 — Conversion Architecture (NEXT — blocked by G1)
+
+| # | Action | Priority | Dependency | Estimated Effort |
+|---|--------|----------|------------|-----------------|
+| 2 | **Define final sitemap** (validate/revise Section H.1 hierarchy) | 🔴 P0 | G1 approved | 1 turn |
+| 3 | **Define primary navigation structure** (top-level items, ordering, mega-menu logic) | 🔴 P0 | #2 | 0.5 turn |
+| 4 | **Define secondary navigation** (sidebar, breadcrumbs, contextual nav per page family) | 🔴 P0 | #3 | 0.5 turn |
+| 5 | **Build page family map** (which pages belong to which family, cross-linking rules) | 🔴 P0 | #2 | 1 turn |
+| 6 | **Define CTA flow by page family** (primary/secondary CTA per page, conversion paths) | 🔴 P0 | #5 | 1 turn |
+| 7 | **Define rules for adding / removing / merging pages** (formalize Section H.4) | 🔴 P0 | #2 | 0.5 turn |
+| 8 | **Define production order** (which page families get produced first, sequencing logic) | 🔴 P0 | #5, #6 | 0.5 turn |
+| 9 | **Resolve catalog gaps** (shower, arch glass, standard — define products or justify absence) | 🔴 P0 | G1 approved | 1 turn |
+| 10 | **Resolve industry page questions** (mixed-use, commercial office — add or defer?) | 🟡 P1 | G1 approved | Owner decision |
+| 11 | **Owner validates G2 conversion architecture** | 🔴 P0 | #2-#10 | Owner review |
+
+### BLOCKED — Cannot start until G2 is validated
+
+| # | Action | Gate | Status |
+|---|--------|------|--------|
+| Page content revision (industry pages, case studies, support pages) | G4 | BLOCKED by G2 → G3 |
+| New page creation (missing catalog pages, new industry pages) | G4 | BLOCKED by G2 → G3 |
+| Pricing placeholder replacement | G4 | BLOCKED — requires owner data + G4 |
+| Final QA pass | G6 | BLOCKED by G4 → G5 |
 
 ---
 
-## 11. Change Log / Turn History
+## 12. Change Log / Turn History
+
+### Turn 1 — 2026-04-07 (Governance Correction Pass)
+
+| Action | Detail |
+|--------|--------|
+| **Modified** | docs/00_MASTER_SYSTEM.md — upgraded from v1.1 to v1.2 |
+| **Modified** | docs/01_WORKPROGRESS.md — corrected next actions, added gate status |
+| **Replaced** | Rigid page-level word count minimums in QA checklist (L.4) with contextual depth model reference |
+| **Replaced** | Rigid "Meets minimum word count" in Definition of Done (N.1) with context-driven depth standard |
+| **Replaced** | Rigid "Min 800 words per content page" in Quick Reference Card with contextual depth guidance |
+| **Added** | Section O — Gate-Based Project Execution Model (G1-G7) to Master |
+| **Preserved** | Section I.0 Content Depth Doctrine — already context-driven, no changes needed |
+| **Preserved** | 7 HILO criteria, Trust Line, CTA hierarchy, "Designed in Canada" terminology |
+| **Revised** | WorkProgress next actions to enforce G1 → G2 gate sequence (no page production until G2 validated) |
+| **Added** | Provisional audit note to WorkProgress inventory — word counts are directional, not absolute |
+| **Added** | Gate Status section (Section 10) to WorkProgress |
+| **Renumbered** | Section O → Section P in Master (Mandatory Preserved Rules from Legacy Master) |
 
 ### Turn 0 — 2026-04-07
 
@@ -281,4 +333,4 @@
 
 ---
 
-*This document is updated after every turn. See Section 11 for complete history.*
+*This document is updated after every turn. See Section 12 for complete history.*

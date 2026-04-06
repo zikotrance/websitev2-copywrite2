@@ -9,7 +9,7 @@
 | Field | Value |
 |-------|-------|
 | **Document ID** | 00_MASTER_SYSTEM |
-| **Version** | 1.0 |
+| **Version** | 1.2 |
 | **Created** | 2026-04-07 |
 | **Created by** | Senior Conversion Architect (GLM) |
 | **Owner** | zikotrance |
@@ -77,7 +77,7 @@ The HILO website project will be considered successful when:
 2. **Lead Quality**: More than 70% of captured leads meet qualification criteria (commercial project, 50+ units, defined timeline).
 3. **User Experience**: The wizard completion rate exceeds 65%, with average completion time under 90 seconds.
 4. **Brand Authority**: The site positions HILO as the premium, reliable, and innovative choice in the glass and mirror industry.
-5. **Content Depth**: Every page provides substantive value (minimum 800 words of actual content for content pages) with clear conversion paths.
+5. **Content Depth**: Every page provides substantive value appropriate to its conversion role, awareness stage, and audience complexity — with clear conversion paths. See Section I.0 (Content Depth Doctrine) for the context-driven depth model.
 6. **Operational Efficiency**: The AI estimation tool reduces pre-qualification calls by 50%, freeing sales resources for high-intent leads.
 
 ---
@@ -550,7 +550,59 @@ BEFORE REMOVING ANY EXISTING PAGE:
 
 ---
 
-## SECTION I — Page-Type Frameworks
+## SECTION I — Content Depth Doctrine
+
+### I.0 Depth Is Contextual, Not Numeric
+
+Page depth must be determined by the conversion requirements of the specific page, not by a one-size-fits-all word count. A rigid "minimum 800 words" rule forces shallow filler on simple pages and may truncate complex pages that need more. Instead, depth is driven by five contextual factors.
+
+The factors that determine how deep a page should go are:
+
+1. **Buying stage of the target visitor** — A solution-aware visitor evaluating HILO as a vendor needs proof, comparison, and specificity. A problem-aware visitor needs credibility and relevance signals. Depth serves the stage.
+
+2. **Complexity of the offer** — Smart mirrors with PMS integration and touchscreen technology require more explanation than standard wall mirrors. The more complex the product or service, the more depth is needed to resolve buyer uncertainty.
+
+3. **Number of objections to resolve** — If a buyer has 7 objections (price, reliability, delivery, installation, custom options, after-sale support, switching cost), the page must address enough of them to reduce anxiety below the action threshold. More objections = more depth.
+
+4. **Proof required** — A case study needs enough narrative depth to make metrics believable, not just a number. A solution page needs enough proof to back each of the 7 HILO criteria. The proof density required drives content depth.
+
+5. **Scanning behavior** — B2B buyers scan before they read. Pages must be scannable first (clear structure, headings, visual hierarchy) and deep second (substantive paragraphs, evidence, reasoning). Scannability does NOT mean short — it means well-structured.
+
+### I.0.1 Depth Guidance by Page Role
+
+| Page Role | Depth Driver | Guidance | Typical Range |
+|-----------|-------------|---------|-------------|
+| **Homepage** | Breadth of value proposition across multiple personas | Deep enough to communicate all 7 criteria, establish credibility, and drive action. Not a data sheet. | 600-1,200 words |
+| **Industry Page** | Industry-specific relevance + targeted objection handling | Must feel specific to the industry (not copy-paste). Depth serves to prove "we understand your sector." | 500-1,000 words |
+| **Solution Page** | Category expertise + full 7-criteria coverage + proof density | This is the evaluation page. Buyers compare options here. Every HILO criterion deserves substantive treatment. Deeper is almost always better. | 1,000-2,000 words |
+| **Case Study** | Narrative credibility + specific metrics | Must tell a complete story: challenge, approach, results. Metrics alone are not enough — the narrative context makes them believable. | 600-1,200 words |
+| **Support Page** | Anxiety resolution + policy clarity | Depth serves the specific questions visitors came to answer. A warranty page needs complete terms. A contact page needs less. | 400-1,000 words |
+| **Catalog Page** | Product comparison + decision facilitation | Overview depth with per-product summaries. Grid-based, not narrative-heavy. | 400-800 words (plus product summaries) |
+| **Product Detail** | Full specification + conversion confidence | Buyers at this stage are ready to act. They need complete specs, clear pricing path, and trust reinforcement. | 800-1,500 words |
+
+These are guidance ranges, not rigid minimums or maximums. A solution page with 900 words of dense, proof-backed copy is more valuable than a solution page with 1,500 words of filler. The content quality doctrine (Section J) — particularly the paragraph and section rules — remains the operative quality standard.
+
+### I.0.2 When Depth Is Insufficient (Regardless of Word Count)
+
+A page is too thin if ANY of the following are true:
+
+- A visitor cannot determine what HILO offers and why it matters after scanning the page
+- Fewer than 3 of the 7 HILO criteria are communicated (on any page)
+- A section labeled as a major content block contains only a table or bullet list without explanatory copy
+- The Trust Line is the only proof element on the page
+- No objection-handling content is present (explicit or implicit)
+- The page could apply equally to HILO and to a generic competitor
+
+### I.0.3 When Depth Is Excessive (Regardless of Word Count)
+
+A page is too long if ANY of the following are true:
+
+- Content repeats the same point in multiple sections without adding new information
+- Visitors must scroll more than 3 screens to reach the primary CTA on a page designed for action
+- Sections exist primarily to hit a word target rather than to serve the buyer
+- The page conflates multiple page types (e.g., a support page that contains full product specifications)
+
+---
 
 ### I.1 Homepage Framework
 
@@ -561,7 +613,7 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Solution-aware to Product-aware |
 | **CTA Principal** | "Get Instant AI Estimate →" |
 | **CTA Secondaire** | "Book a Call" |
-| **Minimum Word Count** | 800 words |
+| **Depth Driver** | Breadth across 7 criteria, multiple persona relevance, credibility establishment |
 | **Recommended Blocks** | Hero + Value Prop, 7 Key Advantages, Product Range, Process Steps, Case Study Teaser, FAQ (3 questions), Final CTA |
 | **Expected Proof** | Trust Line, case study metrics, 7 HILO criteria |
 | **Errors to Avoid** | Generic messaging, no clear path to conversion, missing Trust Line |
@@ -575,10 +627,10 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Solution-aware (Level 3) |
 | **CTA Principal** | "Get Instant AI Estimate →" |
 | **CTA Secondaire** | "Book a Call" |
-| **Minimum Word Count** | 800 words |
+| **Depth Driver** | Industry-specific objection handling, sector-relevant proof, persona targeting |
 | **Recommended Blocks** | Industry-specific hero, 7 advantages (industry-customized), recommended products, industry case study, industry FAQ, Final CTA |
 | **Expected Proof** | Industry-specific case study, Trust Line, relevant metrics |
-| **Errors to Avoid** | Generic content that could apply to any industry, no industry-specific case study, shallow copy under 500 words |
+| **Errors to Avoid** | Generic content that could apply to any industry, no industry-specific case study, no sector-specific language |
 
 ### I.3 Solution Page Framework
 
@@ -589,10 +641,10 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Solution-aware to Product-aware (Level 3-4) |
 | **CTA Principal** | "See Our Products" |
 | **CTA Secondaire** | "Get AI Estimate" |
-| **Minimum Word Count** | 1,200 words |
+| **Depth Driver** | Full 7-criteria coverage, offer complexity, proof density, comparison need |
 | **Recommended Blocks** | Product-specific hero with reliability stat, all 7 HILO criteria as dedicated sections, pricing callout, delivery section, catalog vs. custom decision box, AI estimate CTA box, product range cross-sell, installation section, Final CTA |
 | **Expected Proof** | All 7 HILO criteria present, quantitative data, Trust Line |
-| **Errors to Avoid** | Missing any of the 7 criteria, shallow sections under 150 words, no decision box for catalog vs. custom |
+| **Errors to Avoid** | Missing any of the 7 criteria, sections without explanatory copy, no decision box for catalog vs. custom |
 
 ### I.4 Case Study Framework
 
@@ -603,10 +655,10 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Product-aware (Level 4) — they're evaluating HILO as a vendor |
 | **CTA Principal** | "Start Your Project →" |
 | **CTA Secondaire** | "View All Case Studies" |
-| **Minimum Word Count** | 800 words |
+| **Depth Driver** | Narrative credibility to make metrics believable, specific enough to feel real |
 | **Recommended Blocks** | Project overview, challenge/problem, HILO solution, results/metrics, testimonial (if available), product details, CTA |
 | **Expected Proof** | Specific metrics (units delivered, time frame, failure rate), Trust Line |
-| **Errors to Avoid** | Vague results ("they were happy"), no specific numbers, no project photos described, missing CTA |
+| **Errors to Avoid** | Vague results ("they were happy"), no specific numbers, no project narrative, missing CTA |
 
 ### I.5 Support Page Framework
 
@@ -617,7 +669,7 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Variable (2-5) — often anxiety-driven visits |
 | **CTA Principal** | "Get AI Estimate →" |
 | **CTA Secondaire** | "Contact Us" |
-| **Minimum Word Count** | 600 words |
+| **Depth Driver** | Number and complexity of questions the page must answer |
 | **Recommended Blocks** | Clear page title, comprehensive FAQ-style content, relevant policies, Trust Line, CTA to return to conversion path |
 | **Expected Proof** | Specific warranty terms, delivery details, clear policies |
 | **Errors to Avoid** | Legal jargon, no CTA back to conversion, missing Trust Line, incomplete information |
@@ -631,7 +683,7 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Product-aware (Level 4) |
 | **CTA Principal** | "Get AI Instant Quote →" |
 | **CTA Secondaire** | "Book a Call" |
-| **Minimum Word Count** | 600 words (plus individual product summaries) |
+| **Depth Driver** | Number of products to compare, category complexity |
 | **Recommended Blocks** | Category overview, product grid with images, key specs per product, comparison highlights, CTA |
 | **Expected Proof** | Product specifications, warranty mention, Trust Line |
 | **Errors to Avoid** | No pricing visibility, missing specs, no path to quote |
@@ -645,7 +697,7 @@ BEFORE REMOVING ANY EXISTING PAGE:
 | **Awareness Stage** | Product-aware to Most-aware (Level 4-5) |
 | **CTA Principal** | "Get AI Instant Quote →" |
 | **CTA Secondaire** | "Book a Call" |
-| **Minimum Word Count** | 1,000 words |
+| **Depth Driver** | Specification completeness, feature differentiation, conversion confidence |
 | **Recommended Blocks** | Product hero with image, key specifications table, features & benefits, dimensions/sizes, related products, warranty callout, CTA section |
 | **Expected Proof** | Detailed specs, Trust Line, warranty terms |
 | **Errors to Avoid** | Incomplete specs, no clear pricing or quote path, missing CTA |
@@ -892,7 +944,7 @@ CONTENT QA:
 □ All pages have Trust Line in footer
 □ All pages have primary and secondary CTAs
 □ All solution pages address all 7 HILO criteria
-□ No page has less than 600 words (support pages) or 800 words (content pages)
+□ All pages pass the Depth Insufficiency Test (Section I.0.2) — depth is appropriate to page role, awareness stage, and offer complexity (see Section I.0 for the context-driven depth model)
 □ All CTAs link to valid destinations
 □ No broken internal links
 □ No placeholder text ("Lorem ipsum", "TBD", "XXX")
@@ -998,7 +1050,7 @@ A page is considered complete when ALL of the following are true:
 
 | Criterion | Standard |
 |-----------|----------|
-| **Content depth** | Meets minimum word count for page type (Section I) |
+| **Content depth** | Depth is appropriate to the page's role, buying stage, offer complexity, objection count, and proof requirements per Section I.0 (Context-Driven Depth Model). Page must NOT trigger any "insufficient depth" criterion in Section I.0.2. |
 | **Copy quality** | No single-sentence paragraphs, no sections under 150 words |
 | **CTA compliance** | Primary and secondary CTAs present and correct per mapping (Section G.6) |
 | **HILO criteria** | Minimum 3 criteria present (5 for solution pages), criterion #1 always present |
@@ -1033,9 +1085,89 @@ The entire site is ready for deployment when:
 
 ---
 
-## SECTION O — Mandatory Preserved Rules from Legacy Master
+## SECTION O — Gate-Based Project Execution Model
 
-### O.1 The 7 HILO Criteria (PRESERVED VERBATIM)
+### O.1 Gated Delivery Framework
+
+The HILO website project follows a strict gated execution model. Each gate must be validated before work at the next gate begins. No gate may be skipped or collapsed without explicit owner approval.
+
+```
+GATE SEQUENCE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GATE 1 — GOVERNANCE FOUNDATION
+  Deliverable:  Master System Document + WorkProgress (this document + companion)
+  Validation:   Owner reads and approves both governance documents as-is or with noted amendments.
+  Blocks:       ALL subsequent gates. Nothing proceeds without G1 approval.
+  Status:       DRAFT — awaiting owner validation
+
+GATE 2 — CONVERSION ARCHITECTURE
+  Deliverable:  Final sitemap, primary/secondary navigation, page hierarchy,
+                page family map, CTA flow by page family,
+                rules for adding/removing/merging pages, production order.
+  Validation:   Owner approves the conversion architecture as the structural blueprint.
+  Blocks:       Gate 3 (no page models can be built without an approved architecture).
+
+GATE 3 — PAGE MODELS AND PRIORITIZATION
+  Deliverable:  Per-page-type content models derived from the architecture,
+                production priority matrix, content briefs for each page.
+  Validation:   Owner approves page models and production sequence.
+  Blocks:       Gate 4 (no content production begins without approved models).
+
+GATE 4 — CONTENT PRODUCTION
+  Deliverable:  Full page content for all pages per approved models and production order.
+  Validation:   Each page passes Definition of Done (Section N.1).
+                Batch validation by owner per page family.
+  Blocks:       Gate 5 (no site build begins without approved content).
+
+GATE 5 — SITE BUILD
+  Deliverable:  Functional website with all content integrated, navigation working,
+                responsive layouts, wizard flow operational.
+  Validation:   All pages render correctly, all CTAs functional, all links valid.
+  Blocks:       Gate 6 (no QA begins without a build to test).
+
+GATE 6 — QA / CRO / SEO VALIDATION
+  Deliverable:  QA checklist passed (Section L.4), CRO review of conversion paths,
+                SEO audit of all pages, accessibility check, performance benchmarks.
+  Validation:   All QA items pass. Critical issues resolved.
+  Blocks:       Gate 7 (no deployment without passing QA).
+
+GATE 7 — DEPLOYMENT
+  Deliverable:  Live website on production platform.
+  Validation:   Smoke test on production, owner sign-off.
+  Blocks:       None — project transitions to maintenance/optimization.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### O.2 Gate Validation Rules
+
+| Rule | Description |
+|------|-------------|
+| **Sequential execution** | Gates must be completed in order (G1 → G2 → G3 → G4 → G5 → G6 → G7). |
+| **No parallel gates** | Work on a later gate may not begin before the preceding gate is owner-validated. |
+| **Gate deliverable required** | Each gate produces a defined deliverable. Vague or partial deliverables are not acceptable. |
+| **Owner validation** | Every gate requires explicit owner approval. Agent self-validation is not sufficient. |
+| **Backward impact** | If a validated gate needs revision, all subsequent gates must be re-evaluated for impact. |
+| **WorkProgress reflection** | The companion WorkProgress document must reflect the current gate status at all times. |
+
+### O.3 Current Gate Status
+
+| Gate | Name | Status |
+|------|------|--------|
+| G1 | Governance Foundation | DRAFT — created, not yet owner-approved |
+| G2 | Conversion Architecture | NOT STARTED |
+| G3 | Page Models and Prioritization | NOT STARTED |
+| G4 | Content Production | NOT STARTED |
+| G5 | Site Build | NOT STARTED |
+| G6 | QA / CRO / SEO Validation | NOT STARTED |
+| G7 | Deployment | NOT STARTED |
+
+---
+
+## SECTION P — Mandatory Preserved Rules from Legacy Master
+
+### P.1 The 7 HILO Criteria (PRESERVED VERBATIM)
 
 These 7 criteria are the non-negotiable foundation of every page on the HILO website. They were defined by the owner and must never be altered, reworded, or deprioritized without explicit owner approval.
 
@@ -1051,7 +1183,7 @@ These 7 criteria are the non-negotiable foundation of every page on the HILO web
 
 **Application Rule**: Every page MUST contain at minimum criteria #1 and #5, plus 3 additional criteria. Solution pages MUST contain all 7.
 
-### O.2 Trust Line Exact Text (PRESERVED VERBATIM)
+### P.2 Trust Line Exact Text (PRESERVED VERBATIM)
 
 ```
 🏆 180+ Projects | 🛡️ 5-Year Warranty | 🇨🇦 Designed in Canada. Distributed across North America.
@@ -1061,7 +1193,7 @@ NEVER modify the wording, order, or emoji.
 NEVER abbreviate or omit any part.
 ```
 
-### O.3 CTA Architecture (PRESERVED)
+### P.3 CTA Architecture (PRESERVED)
 
 The three-level CTA hierarchy from the legacy master is preserved:
 
@@ -1071,7 +1203,7 @@ The three-level CTA hierarchy from the legacy master is preserved:
 | Product Detail | Get AI Instant Quote | Book a Call |
 | Case Study | Start Your Project | View All Case Studies |
 
-### O.4 "Designed in Canada" Terminology (PRESERVED)
+### P.4 "Designed in Canada" Terminology (PRESERVED)
 
 ```
 MANDATORY: "Designed in Canada"
@@ -1084,7 +1216,7 @@ Always pair with: "Distributed across North America"
 or "Canada and US facilities"
 ```
 
-### O.5 Conversion Frameworks (PRESERVED)
+### P.5 Conversion Frameworks (PRESERVED)
 
 The 7 conversion frameworks from the legacy master continue to inform all content decisions:
 
@@ -1098,7 +1230,7 @@ The 7 conversion frameworks from the legacy master continue to inform all conten
 | 6 | PAS (Problem-Agitate-Solution) | Content structure |
 | 7 | AIDA (Attention-Interest-Desire-Action) | Page flow |
 
-### O.6 Copywriting Standards (PRESERVED)
+### P.6 Copywriting Standards (PRESERVED)
 
 | Rule | Standard |
 |------|----------|
@@ -1109,7 +1241,7 @@ The 7 conversion frameworks from the legacy master continue to inform all conten
 | No slang or excessive emojis | Professional B2B standard |
 | Claims must be credible | Data-backed, no hyperbole |
 
-### O.7 Quality Checklists (PRESERVED)
+### P.7 Quality Checklists (PRESERVED)
 
 The legacy quality checklist for page validation is preserved and incorporated into Section L.4 of this document. The wizard-specific checklist is preserved in the Wizard flow document.
 
@@ -1145,11 +1277,13 @@ TERMINOLOGY:
 ✓ "Engineered for..."      ✗ "Revolutionary"
 
 CONTENT RULES:
-- Min 800 words per content page
-- Min 150 words per section
+- Depth is contextual, not numeric (see Section I.0)
+- Depth depends on: buying stage, offer complexity, objections to resolve, proof required, scanning behavior, primary CTA goal
+- Use guidance ranges in Section I.0.1 as reference, NOT as rigid minimums
+- A page must NOT trigger any "insufficient depth" test in Section I.0.2
+- Min 150 words per section body content
 - Min 3-5 sentences per paragraph
 - No single-sentence paragraphs
-- No sections under 150 words
 
 BEFORE ANY ACTION:
 1. Read 00_MASTER_SYSTEM.md
