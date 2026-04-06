@@ -1,2 +1,1 @@
-# websitev2-copywrite2
-websitev2-copywrite2
+Here are all the generated files.
