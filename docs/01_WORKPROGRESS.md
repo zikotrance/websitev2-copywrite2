@@ -3,7 +3,7 @@
 **Status**: LIVING DOCUMENT — Updated after every intervention
 **Last Updated**: 2026-04-07
 **Updated by**: GLM (Senior Conversion Architect)
-**Phase**: Gate 2 — Conversion Architecture (DRAFT, awaiting owner validation)
+**Phase**: Gate 2 — Conversion Architecture (DRAFT v2 — AI Discoverability added, awaiting owner validation)
 
 ---
 
@@ -140,7 +140,17 @@
 | Content overlap between Warranty and Returns pages | Claims process duplicated | 🟡 P1 |
 | Chinese text leak in file 43 (SENSORY™ description) | Non-English content in an English-only site | 🟡 P1 |
 
-### 6.3 MINOR Issues (Track for Future)
+### 6.3 AI Discoverability Gaps (New — Identified at Gate 2 v2)
+
+| Issue | Impact | Priority |
+|-------|--------|----------|
+| **Zero structured data markup** — no schema.org, JSON-LD, or any semantic markup exists anywhere in the repo | AI systems cannot extract structured information from the site. This is a foundational blocker for AI discoverability. Must be implemented at Gate 5 (build). | 🔴 P0 (G5 dependency) |
+| **Solution pages lack FAQ blocks** — only industry pages and homepage have FAQ sections | AI systems heavily cite FAQ content. Solution pages are the primary entity hubs but have no FAQ blocks to extract. | 🟡 P1 (G4 fix) |
+| **Solution pages lack definition blocks** — no clear product category definitions | AI systems need concise, extractable definitions to understand what HILO offers. Must be added to all 6 solution pages during G4 revision. | 🟡 P1 (G4 fix) |
+| **Homepage does not link to industry pages** — only links to solution pages | Homepage is the primary entry point for AI crawlers. Missing industry links reduce topical authority signals. | 🟡 P1 (G4 fix) |
+| **No comparison grids on any existing page** — catalogue pages don't exist yet | Comparison grids are the #1 AI-citable structure for product queries. Must be a primary content block on all 6 catalogue pages when created. | 🟡 P1 (G4 creation) |
+
+### 6.4 MINOR Issues (Track for Future)
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
@@ -175,6 +185,7 @@
 | Product detail pages | SPLIT 9 bundle files into ~48 individual product detail pages | ⚠️ PENDING |
 | Returns/Warranty merge | Consolidate claims process into Warranty page | ⚠️ PENDING OWNER APPROVAL |
 | Production order | Solutions → Industries → Case Studies → Catalogues → Products → Homepage → Support → Wizard → QA | ⚠️ PENDING |
+| **AI Discoverability architecture** | **Section 12 added to Conversion Architecture — entity hubs, comparative targets, FAQ rules, structured content, cross-linking, schema.org roadmap** | ⚠️ PENDING OWNER VALIDATION |
 
 ---
 
@@ -203,6 +214,7 @@
 | **3 categories have zero product content** | HIGH | Shower, Arch Glass, Standard need product definitions from owner before catalogue/product pages can be created. |
 | **~48 product detail pages needed** | HIGH | Massive content production workload. Must be batched by category during G4. |
 | **Zero cross-linking between page families** | MEDIUM | Must be addressed during G4 content production. Cross-linking rules defined in Conversion Architecture Section 8.5. |
+| **AI discoverability gaps (no structured data, no FAQ on solutions, no definition blocks)** | MEDIUM-HIGH | AI Discoverability is a cross-gate requirement (Section 12 of Conversion Architecture). Must be addressed in G3 (page models), G4 (content), G5 (build/schema), and G6 (QA validation). |
 
 ### 9.2 Content Risks
 
@@ -277,6 +289,23 @@
 ---
 
 ## 12. Change Log / Turn History
+
+### Turn 3 — 2026-04-07 (Gate 2 v2 — AI Discoverability Architecture Added)
+
+| Action | Detail |
+|--------|--------|
+| **Added** | Section 12 ("AI Discoverability / Generative Search Architecture") to docs/02_CONVERSION_ARCHITECTURE.md |
+| **Defined** | Entity hub designation for all page families — 10 primary/secondary/specialized entity hubs identified |
+| **Defined** | Comparative / evaluative intent targets for 6 page types (smart mirrors, arch glass, cabinets, catalogues, solutions, case study index) |
+| **Defined** | FAQ-style answer structure requirements for 5 page families (FAQ, homepage, industries, solutions, case studies) |
+| **Defined** | Structured information design rules — spec tables, pricing tables, definition blocks, process blocks, proof blocks, comparison blocks |
+| **Defined** | Internal linking rules for human and AI retrieval — 7 mandatory cross-linking relationships + anchor text rules |
+| **Mapped** | Pages critical for AI discoverability with current status and required actions |
+| **Planned** | Future content formats for citation probability (comparison guides, buying guides, structured data markup) |
+| **Defined** | Cross-gate impact of AI discoverability: G2 (architecture), G3 (page models), G4 (content), G5 (schema.org), G6 (QA validation) |
+| **Identified** | 4 AI discoverability-specific gaps: zero structured data, no FAQ on solutions, no definition blocks, no comparison grids |
+| **Added** | AI discoverability as formal architectural requirement in WorkProgress risks section |
+| **Updated** | Conversion Architecture status to DRAFT v2 |
 
 ### Turn 2 — 2026-04-07 (Gate 2 — Conversion Architecture)
 

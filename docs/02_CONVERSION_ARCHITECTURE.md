@@ -1,8 +1,9 @@
 # CONVERSION ARCHITECTURE — HILO Website Project
 
 **Gate**: 2 — Conversion Architecture
-**Status**: DRAFT — Owner validation required
+**Status**: DRAFT v2 — Owner validation required (AI Discoverability added)
 **Created**: 2026-04-07
+**Last Updated**: 2026-04-07
 **Created by**: Senior Conversion Architect (GLM)
 **Governing Document**: docs/00_MASTER_SYSTEM.md (v1.2)
 **Companion**: docs/01_WORKPROGRESS.md
@@ -25,6 +26,7 @@ Gate 1 established the rules. Gate 2 builds the blueprint. This document defines
 - Complete CTA flow architecture across all page families
 - Rules for hierarchy, naming, and page creation
 - Production sequence for Gate 3 (page models) and Gate 4 (content production)
+- **AI Organic Discoverability architecture** (Section 12) — structural eligibility for AI-driven search experiences (Google AI, ChatGPT Search, Microsoft Copilot/Bing AI)
 
 ### What Remains Blocked
 
@@ -33,6 +35,10 @@ Gate 1 established the rules. Gate 2 builds the blueprint. This document defines
 - **Pricing data** — placeholder values require owner input (cannot be fabricated)
 - **Product naming reconciliation** — existing catalog files use inconsistent product names that require owner arbitration (see Section 6)
 - **New industry page decisions** — mixed-use and commercial office require owner direction
+
+### Cross-Gate Structural Requirement: AI Organic Discoverability
+
+This architecture now includes a formal **AI Discoverability / Generative Search Architecture** (Section 12). This is not a narrow SEO add-on — it is a **cross-gate structural requirement** affecting architecture (G2), page models (G3), content formatting (G4), and QA validation (G6). The HILO website must be structurally eligible to be cited, surfaced, and used as a supporting source in AI-driven search experiences including Google AI features, ChatGPT Search, and Microsoft Copilot / Bing AI. Every page model, content block, and information structure decision made in subsequent gates must account for both classic organic search discoverability and AI answer citation potential.
 
 ---
 
@@ -728,4 +734,146 @@ Within a phase, pages within the same family CAN be produced in parallel (e.g., 
 
 ---
 
-*This document defines the structural blueprint for the HILO website. It is subordinate to the Master System Document (docs/00_MASTER_SYSTEM.md) in all matters of strategic, editorial, and conversion doctrine. It will be referenced by Gate 3 (Page Models) and Gate 4 (Content Production).*
+## 12. AI Discoverability / Generative Search Architecture
+
+### 12.1 Strategic Context
+
+The landscape of search has fundamentally shifted. A growing percentage of B2B buyers no longer start their research by clicking through blue links on a search engine results page. Instead, they ask questions directly to AI-driven experiences — Google AI overviews, ChatGPT Search, Microsoft Copilot, Perplexity, and similar tools. These systems do not rank pages the way classic search does. They **extract, synthesize, and cite** content from authoritative sources to construct answers.
+
+For HILO, this means the website's content architecture must serve two audiences simultaneously: **human buyers** (conversion-focused) and **AI retrieval systems** (citation-eligible). A page that converts a human but is invisible to AI retrieval is leaving traffic on the table. Conversely, a page that's structured for AI extraction but doesn't convert is equally useless. The architecture must achieve both.
+
+This is not a post-launch SEO optimization pass. AI discoverability is a **structural requirement** embedded at the architecture level. It affects which pages exist, how they're organized, what content blocks they contain, how information is formatted, and how pages link to each other.
+
+### 12.2 Entity Hub Designation
+
+An entity hub is a page that AI systems recognize as the **definitive reference** for a specific topic or entity. Entity hubs are the pages most likely to be cited when an AI system answers a question related to HILO's domain. Not every page should be an entity hub — only those where HILO can establish genuine, defensible authority.
+
+| Page Family | Entity Hub Status | Target Entity | AI Citation Opportunity |
+|-------------|-------------------|---------------|------------------------|
+| **Solution Pages** (all 6) | **PRIMARY ENTITY HUBS** | Each solution category (LED mirrors, smart mirrors, medicine cabinets, shower glass, architectural glass, standard mirrors) | "What are the most reliable LED mirrors for hotels?" / "Which company makes commercial-grade smart mirrors?" / "How long do shower glass enclosures last?" |
+| **Product Detail Pages** | **SECONDARY ENTITY HUBS** | Individual product models (FLEUVE One, INTELLI, etc.) | "What are the specs of the HILO FLEUVE Pro LED mirror?" / "Does HILO make a smart mirror with PMS integration?" |
+| **FAQ Page** | **PRIMARY ENTITY HUB** | HILO policies and common questions | "What is HILO's warranty?" / "How long does HILO shipping take?" / "What is HILO's return policy?" |
+| **About Page** | **ENTITY HUB** | HILO as a company entity | "Who is HILO?" / "Where is HILO based?" / "How many projects has HILO completed?" |
+| **Case Studies** (all 5) | **SECONDARY ENTITY HUBS** | Project outcomes and proof points | "Has HILO done hotel projects?" / "What were the results of HILO's senior living installation?" |
+| **Industry Pages** (all 3) | **CONTEXTUAL HUBS** | HILO's expertise within a vertical | "What mirror solutions work for senior living?" / "Best glass supplier for hotel renovations" |
+| **Homepage** | **BRAND ENTITY** | HILO's core value proposition | "What does HILO do?" / "HILO glass and mirrors" |
+| **Warranty Page** | **SPECIALIZED HUB** | Warranty terms and claims process | "What does HILO's 5-year warranty cover?" |
+| **Shipping Page** | **SPECIALIZED HUB** | Delivery logistics and timelines | "How long does HILO take to deliver?" |
+
+Pages NOT designated as entity hubs: Contact (utility page), Returns (being merged into Warranty), Estimate/Wizard (conversion tool, not an information resource).
+
+### 12.3 Comparative / Evaluative Intent Targets
+
+AI systems are frequently asked to compare options. Pages that address comparative or evaluative intent are highly citable because AI models synthesize comparison answers from sources that present structured differences. The following pages must explicitly include comparative content blocks designed for both human evaluation and AI extraction:
+
+| Page | Comparative Intent Target | Required Comparative Structure |
+|------|--------------------------|------------------------------|
+| **06 Smart Mirrors** | "LED vs smart mirrors — which is right for my hotel?" | Feature comparison table (LED vs Smart), pricing tier comparison, use-case decision framework. Must be extractable as a standalone comparison block. |
+| **09 Architectural Glass** | "How does HILO architectural glass compare to competitors?" | Failure rate comparison table (HILO vs industry average), material quality comparison, warranty comparison. The existing comparison tables should be reinforced with a dedicated "HILO vs. Generic Alternatives" block. |
+| **07 Medicine Cabinets** | "Are HILO medicine cabinets worth the investment?" | Total cost of ownership comparison (HILO vs budget alternatives over 5 years), failure mode comparison table. |
+| **Catalogue Listing Pages** (all 6) | "Which HILO [product] should I choose?" | Product comparison grid within each catalogue page — side-by-side specs, pricing tiers, use-case recommendations. This is the #1 comparative structure on the site. |
+| **Solution Pages** (all 6) | "Why choose HILO over [competitor]?" | Each solution page already has a reliability comparison (HILO 0.3% vs industry 12-18%). This must be formatted as a clearly delineated, extractable comparison block with a descriptive heading. |
+| **Case Study Index** | "Which HILO projects have the best results?" | Results summary table across all 5 case studies — industry, units, timeline, key metric, financial impact. AI systems extract aggregated proof from index pages. |
+
+### 12.4 FAQ-Style Answer Structures
+
+FAQ content is among the most frequently cited by AI systems because it directly maps to the question-answer format that AI models generate. Pages that include FAQ blocks must format them for dual extraction (human scanning + AI retrieval):
+
+**Pages that MUST include FAQ blocks:**
+
+| Page | Minimum FAQ Items | FAQ Intent Focus |
+|------|-------------------|-----------------|
+| **19 FAQ Page** | 14 (existing) | Full policy coverage — warranty, shipping, returns, pricing, ordering, installation. This is the site's primary FAQ entity. |
+| **01 Homepage** | 3 (existing) | Top-of-funnel objections: warranty, delivery, installation. |
+| **02-04 Industry Pages** | 3 each | Industry-specific questions: "Does HILO work with hotels?" / "What mirror solutions do senior living facilities need?" |
+| **05-10 Solution Pages** | 3-5 each | Product category questions: "How long do LED mirrors last?" / "Can HILO smart mirrors integrate with hotel PMS?" / "What glass thickness does HILO use for shower enclosures?" |
+| **12-16 Case Studies** | 2-3 each | Project-specific questions: "How many mirrors were installed at [property]?" / "What was the timeline for [project]?" |
+
+**FAQ Formatting Rules for AI Extraction:**
+
+1. Every FAQ item must use a proper H3 or equivalent semantic markup with the question as the heading.
+2. Each answer must be self-contained — an AI system should be able to extract the answer without needing surrounding context.
+3. Answers must contain specific data points (numbers, dates, specifications) not just qualitative claims. "HILO delivers in 2-3 weeks" is citable. "HILO delivers quickly" is not.
+4. FAQ items should use schema.org `FAQPage` structured data markup at build time (Gate 5 requirement).
+5. Answers must NOT include CTAs within the answer text — keep informational content separate from conversion prompts.
+
+### 12.5 Structured Information Design
+
+AI systems prefer pages with clearly structured, extractable information. The following content formats must be present on designated pages to maximize both human scannability and AI extraction probability:
+
+**Required Content Structures by Page Type:**
+
+| Structure Type | Where Required | Purpose |
+|----------------|---------------|---------|
+| **Specification Tables** | All product detail pages, all solution pages, catalogue listing pages | Dimensions, materials, features, certifications, lead times. AI systems extract tabular data to construct comparison answers. |
+| **Pricing Tables** | Solution pages (comparison tiers), catalogue listing pages (per-product), FAQ (volume discounts) | Price ranges, volume discount tiers, custom vs. catalog pricing. AI systems cite pricing data when answering "how much" questions. |
+| **Definition Blocks** | All solution pages | Clear, concise definitions of product categories ("LED mirrors are backlit mirror products designed for..."). These are the building blocks AI systems use to understand what HILO offers. |
+| **Process Blocks** | Shipping page (delivery process), Warranty page (claims process), Solution pages (ordering process) | Step-by-step processes formatted as numbered sequences. AI systems extract processes to answer "how does [X] work?" questions. |
+| **Proof Blocks** | All solution pages, all case studies, homepage | Quantified results in a consistent format: metric + context + time frame. "94% maintenance reduction across 120 hotel rooms over 18 months." AI systems extract proof blocks to substantiate claims in their answers. |
+| **Comparison Blocks** | All solution pages, catalogue pages | Side-by-side comparisons with clear column headers. AI systems extract these to answer "X vs. Y" questions. |
+
+**Anti-Pattern: Unstructured Narrative Without Extractable Anchors**
+
+Long paragraphs without subheadings, tables, or structured data are the least AI-citable format. Every page must balance narrative depth (for human persuasion) with structured information blocks (for AI extraction). The conversion architecture already mandates tables and structured content per the Master's copywriting doctrine (Section J.4) — AI discoverability reinforces this requirement rather than adding new ones.
+
+### 12.6 Internal Linking Rules for Human and AI Retrieval
+
+Internal linking serves two purposes: helping human users navigate and helping AI systems understand the site's information topology. AI retrieval systems use link structure as a signal of topical authority — a page linked to from multiple relevant pages is perceived as more authoritative on that topic.
+
+**Mandatory Cross-Linking Requirements:**
+
+| Source | Must Link To | Link Context | Rationale |
+|--------|-------------|-------------|-----------|
+| Every solution page | Its parent catalogue page + relevant industry pages + FAQ | Contextual in-line links within body copy, not just CTAs | Establishes topical authority for the solution category. AI systems follow these links to build a complete picture of HILO's offering. |
+| Every industry page | Relevant solution pages + relevant case study | Contextual links within "Recommended Products" and "Case Study" sections | Connects industry expertise to specific products and proof. AI systems use these connections to answer industry-specific queries. |
+| Every case study | Related solution pages + related industry page + case study index | "Related Products" table + "View All Case Studies" link | Creates a proof cluster that AI systems can aggregate. |
+| Every product detail page | Parent catalogue page + parent solution page + related products | Breadcrumb + "Related Products" section + "Back to [Category]" link | AI systems need to understand each product's position in the hierarchy. |
+| FAQ page | Warranty, Shipping, Returns/Contact, relevant solution pages | Links within FAQ answers to dedicated pages | AI systems follow FAQ answer links to cite deeper sources. |
+| About page | All 6 solution pages + all 3 industry pages + case study index | "What We Do" and "Industries We Serve" sections with actual URLs | About page is a brand entity hub — its links signal HILO's core topics to AI systems. |
+| Homepage | All 6 solution pages + wizard + industries | Solution cards, industry links (currently missing), CTAs | Homepage is the primary entry point for both humans and AI crawlers. |
+
+**Anchor Text Rules for AI-Friendly Linking:**
+
+1. Use descriptive anchor text that includes the topic, not generic "click here" or "learn more." Example: "HILO's LED mirrors achieve a 94% maintenance reduction in hotel environments" linking to the LED mirrors solution page.
+2. Vary anchor text across the site. AI systems penalize exact-match anchor text repetition.
+3. Include entity names in anchor text where possible. "The FLEUVE Pro LED mirror" is a better link than "this mirror."
+
+### 12.7 Pages Critical for AI Discoverability
+
+Beyond the entity hubs and comparative targets, certain pages have outsized importance specifically for AI citation potential:
+
+| Page | Why It Matters for AI | Current Status | Action Required |
+|------|----------------------|----------------|-----------------|
+| **FAQ Page** (`/faq`) | The single most AI-citable page type. AI models directly extract FAQ answers. The existing 14-item FAQ is well-structured but needs schema.org markup and better internal linking. | EXISTS — revision needed | Add schema.org FAQPage markup (G5), add links to dedicated pages, ensure answers are self-contained |
+| **About Page** (`/about`) | Brand entity hub. AI systems need a clear, factual "About" page to understand who HILO is. Contains company history, team, metrics, industries served — all highly extractable. | EXISTS — revision needed | Add structured data (Organization schema), ensure metrics are in extractable format, add actual link URLs |
+| **Warranty Page** (`/warranty`) | "What does the warranty cover?" is a top-of-funnel AI query for B2B buyers. Warranty terms are factual and highly citable. | EXISTS — revision needed | Ensure coverage table is clearly structured, add schema.org markup, consolidate claims content from Returns page |
+| **Solution Pages** (all 6) | Category authority pages. When someone asks "What are the best commercial LED mirrors?", AI systems extract from solution pages that present clear category definitions, specifications, comparisons, and proof. | EXIST — revision needed | Add definition blocks, ensure comparison tables are extractable, add FAQ blocks, add cross-links to industries and case studies |
+| **Catalogue Pages** (all 6, TO CREATE) | Product comparison hubs. "Which LED mirror should I choose for a hotel?" — AI systems extract from catalogue grids. | MUST CREATE | Design with comparison grid as the primary content block, include per-product spec summaries in extractable format |
+| **Product Detail Pages** (~48, TO CREATE) | Individual product entities. AI systems cite specific product pages when answering questions about specific models. | MUST CREATE | Include structured spec tables, pricing info, feature lists, and "Specifications" as a clearly marked section |
+
+### 12.8 Future Content Formats to Increase Citation Probability
+
+The current architecture focuses on static content pages. Post-launch, the following content formats should be evaluated for their AI citation potential:
+
+| Format | Citation Opportunity | Priority | Gate |
+|--------|---------------------|----------|------|
+| **Long-form comparison guides** ("LED Mirrors vs. Smart Mirrors: Complete Guide for Hotel Developers") | Very high — AI systems heavily cite comparison content from authoritative guides | P1 — evaluate after core pages are production-ready | Post-launch |
+| **Industry-specific buying guides** ("The Complete Guide to Specifying Mirrors for Senior Living Facilities") | High — answers the evaluative queries that AI systems receive from architects and developers | P1 — aligns with existing industry page strategy | Post-launch |
+| **Product specification pages with downloadable PDFs** | Medium — AI systems can cite structured specs; PDFs are less directly extractable but signal depth | P2 — depends on product catalog completion | Post-launch |
+| **Video content (installation guides, product demos)** | Low-medium for direct AI citation, but high for brand authority signals that AI systems may weight | P3 — not in current scope | Post-launch |
+| **Blog/resource articles** ("Why <0.5% Failure Rate Matters for Multi-Family Developers") | Medium — individual articles can be cited, but the blog itself would need consistent publishing to build topical authority | P2 — requires ongoing content investment | Post-launch |
+| **Structured data / JSON-LD markup** (Organization, Product, FAQPage, BreadcrumbList, Review) | Critical infrastructure — not content per se, but the technical layer that makes all other content extractable by AI systems | P0 — must be implemented during build (G5) | Gate 5 |
+
+### 12.9 Cross-Gate Impact Summary
+
+| Gate | Impact of AI Discoverability Requirement |
+|------|----------------------------------------|
+| **G2 (this gate)** | Architecture decisions: entity hub designations, FAQ placement rules, structured content requirements, cross-linking mandates, future content format roadmap |
+| **G3 (Page Models)** | Every page model must include: (1) a structured information block section, (2) FAQ block where designated, (3) comparison block where designated, (4) definition block on solution pages. Page models must specify what schema.org markup types each page will use. |
+| **G4 (Content Production)** | Every content draft must be evaluated against AI extraction criteria: "Can an AI system extract a meaningful answer from this page?" Content writers must include specific data points, not just qualitative claims. Internal links must use descriptive anchor text. |
+| **G5 (Site Build)** | Schema.org markup implementation: Organization, Product, FAQPage, BreadcrumbList, LocalBusiness, WebSite. XML sitemap generation. robots.txt configuration. Canonical URL management. |
+| **G6 (QA / SEO)** | QA checklist must include AI extraction validation: (1) Is every FAQ answer self-contained? (2) Do all comparison tables have clear headers? (3) Are specification tables complete and extractable? (4) Do all internal links have descriptive anchor text? (5) Is schema.org markup valid? |
+
+---
+
+*This document defines the structural blueprint for the HILO website. It is subordinate to the Master System Document (docs/00_MASTER_SYSTEM.md) in all matters of strategic, editorial, and conversion doctrine. It will be referenced by Gate 3 (Page Models) and Gate 4 (Content Production). AI Discoverability (Section 12) is a cross-gate structural requirement affecting G2 through G6.*
