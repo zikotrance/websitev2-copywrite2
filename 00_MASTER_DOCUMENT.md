@@ -1,3 +1,73 @@
+# MASTER SYSTEM DOCUMENT — HILO Website Optimization Project
+
+---
+
+## SECTION 0 — SYSTEM RULES (🔒 LOCKED)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🔒 SYSTEM RULES — LOCKED                                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  • This document is the SINGLE SOURCE OF TRUTH                  │
+│  • This document must NEVER be overwritten                      │
+│  • Existing content must NEVER be deleted                       │
+│  • New content must be appended only (after locked sections)    │
+│  • These system sections are LOCKED and must never be modified  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## SECTION 1 — PROJECT SCOPE (🔒 LOCKED)
+
+### This project is ONLY about:
+
+| Scope | Description |
+|-------|-------------|
+| ✅ **Website structure** | Page architecture, navigation, user flow |
+| ✅ **Page architecture** | Layout, sections, content hierarchy |
+| ✅ **Copywriting** | Text content, messaging, CTAs |
+
+### Strictly forbidden:
+
+| Forbidden | Reason |
+|-----------|--------|
+| ❌ **Development** | Code generation is outside scope |
+| ❌ **Code generation** | No HTML, CSS, JavaScript, React, etc. |
+| ❌ **Deployment** | No DevOps, hosting, CI/CD |
+| ❌ **UI design execution** | No visual design implementation |
+
+---
+
+## SECTION 2 — WORKFLOW RULES (🔒 LOCKED)
+
+### For every future task:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  📋 WORKFLOW CHECKLIST                                           │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  1. Read this document FIRST                                    │
+│  2. Execute ONLY the requested task                             │
+│  3. Maintain consistency across all pages                       │
+│  4. Do NOT rewrite existing content                             │
+│  5. Do NOT invent new elements unless instructed                │
+│  6. Append all new insights at the END of the document          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+---
+
+# ORIGINAL CONTENT — DO NOT MODIFY
+
+---
+
 # MASTER DOCUMENT — HILO Website Optimization Project
 
 **Version**: 1.0
@@ -191,7 +261,7 @@ CTA SECONDAIRE: "Book a Call" → Calendar Booking
 2. COPY PRINCIPAL
    - 150-300 mots
    - Problème → Solution → Bénéfice
-   - Données concrètes quand possible
+   - Données conccrètes quand possible
 
 3. ÉLÉMENTS VISUELS
    - Tableaux comparatifs
