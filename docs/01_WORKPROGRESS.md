@@ -28,7 +28,7 @@
 | **Pages complete (DoD passed)** | 9 (6 solution + 3 industry — G4A batch) |
 | **Pages in draft** | 19 (remaining existing files: homepage, 6 case studies, 6 support, wizard) |
 | **Pages to create** | 6 catalogue listing pages + 120 product detail pages |
-| **Governance documents** | 3/3 created (Master v1.2 + WorkProgress + Conversion Architecture FINAL) |
+| **Governance documents** | 4/4 created (Master v1.2 + WorkProgress + Conversion Architecture FINAL + Page Models APPROVED) |
 | **Site build status** | NOT STARTED |
 | **Deployment status** | NOT STARTED |
 | **Overall project health** | AMBER — G1 approved, G2 locked, G3 approved, G4A complete (9 pages), product data dependencies unresolved |
@@ -42,7 +42,7 @@
 | **Available turns** | Current session active |
 | **Priority for next turn** | Owner authorizes next production batch; provide product data (A1, A4, A7) |
 | **Estimated turns for content production** | ~35-45 turns (based on 154 pages, batch production by family) |
-| **Critical path** | G3 approval → G4 content production (10 phases, 34-42 turns) → G5 build → G6 QA (incl. AI discoverability validation) → G7 deploy |
+| **Critical path** | G3 approved → G4 content production (10 phases, 34-42 turns) → G5 build → G6 QA (incl. AI discoverability validation) → G7 deploy |
 
 ---
 
@@ -136,7 +136,7 @@
 | ~~All 3 industry pages critically thin (~470-500 words)~~ | ~~Fail Section I.0.2 depth tests~~ | ✅ RESOLVED (G4A) — All 3 rewritten to 2,100-2,600 words |
 | ~~French metadata leakage in 12 content files~~ | ~~"Titre", "Projet", "LIVRABLE" labels throughout~~ | ✅ PARTIALLY RESOLVED (G4A) — French metadata removed from all 9 G4A files. Remaining 19 files to be addressed in subsequent batches. |
 | Placeholder phone/address/pricing data in 9+ files | Cannot launch with placeholders | 🟡 P1 |
-| No case study blocks on solution pages | Only industry pages have social proof sections | 🟡 P1 |
+| ~~No case study blocks on solution pages~~ | ~~Only industry pages have social proof sections~~ | ✅ RESOLVED (Turn 7) — 16 case study links added across all 6 solution pages via Industry Relevance blocks |
 | CTA link targets unspecified on most pages | "See All Products", "Read Full Case Study", "Book a Call" have no defined paths | 🟡 P1 |
 | Content overlap between Warranty and Returns pages | Claims process duplicated — resolved: content dedup and scoping applied, both pages remain standalone | ✅ RESOLVED (G2) |
 | Chinese text leak in file 43 (SENSORY™ description) | Non-English content in an English-only site | 🟡 P1 |
@@ -173,7 +173,7 @@
 | CTA 3-level hierarchy preserved | 2026-04-07 | Inherited | From legacy master |
 | Contextual depth model (Section I.0) | 2026-04-07 | Master v1.2 | Replaced rigid word counts |
 | Gated execution model (G1-G7) | 2026-04-07 | Master v1.2 | Section O |
-| G2 conversion architecture drafted | 2026-04-07 | Agent | Awaiting owner validation |
+| G2 conversion architecture drafted | 2026-04-07 | Agent | ✅ FINAL — Locked at Gate 2 (Correction Pass v3) |
 
 ### 7.1 Architectural Decisions Made at Gate 2 (FINAL — LOCKED)
 
