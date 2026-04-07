@@ -1,7 +1,7 @@
 # CONVERSION ARCHITECTURE — HILO Website Project
 
 **Gate**: 2 — Conversion Architecture
-**Status**: DRAFT v2 — Owner validation required (AI Discoverability added)
+**Status**: FINAL — Locked for Gate 3 (Correction Pass v3 Applied)
 **Created**: 2026-04-07
 **Last Updated**: 2026-04-07
 **Created by**: Senior Conversion Architect (GLM)
@@ -119,22 +119,22 @@ L0: HOMEPAGE                                    /
 ├── L1: SOLUTIONS                               /solutions/
 │   ├── LED Mirrors                             /solutions/led-mirrors
 │   │   └── Catalogue                           /solutions/led-mirrors/catalogue
-│   │       └── Product Detail ×N               /solutions/led-mirrors/catalogue/[slug]
+│   │       └── Product Detail ×20               /solutions/led-mirrors/catalogue/[slug]
 │   ├── Smart Mirrors                           /solutions/smart-mirrors
 │   │   └── Catalogue                           /solutions/smart-mirrors/catalogue
-│   │       └── Product Detail ×N               /solutions/smart-mirrors/catalogue/[slug]
+│   │       └── Product Detail ×20               /solutions/smart-mirrors/catalogue/[slug]
 │   ├── Medicine Cabinets                       /solutions/medicine-cabinets
 │   │   └── Catalogue                           /solutions/medicine-cabinets/catalogue
-│   │       └── Product Detail ×N               /solutions/medicine-cabinets/catalogue/[slug]
+│   │       └── Product Detail ×20               /solutions/medicine-cabinets/catalogue/[slug]
 │   ├── Shower Glass                            /solutions/shower-glass
 │   │   └── Catalogue                           /solutions/shower-glass/catalogue
-│   │       └── Product Detail ×N               /solutions/shower-glass/catalogue/[slug]
+│   │       └── Product Detail ×20               /solutions/shower-glass/catalogue/[slug]
 │   ├── Architectural Glass                     /solutions/architectural-glass
 │   │   └── Catalogue                           /solutions/architectural-glass/catalogue
-│   │       └── Product Detail ×N               /solutions/architectural-glass/catalogue/[slug]
+│   │       └── Product Detail ×20               /solutions/architectural-glass/catalogue/[slug]
 │   └── Standard Mirrors                        /solutions/standard-mirrors
 │       └── Catalogue                           /solutions/standard-mirrors/catalogue
-│           └── Product Detail ×N               /solutions/standard-mirrors/catalogue/[slug]
+│           └── Product Detail ×20               /solutions/standard-mirrors/catalogue/[slug]
 │
 ├── L1: INDUSTRIES                              /industries/
 │   ├── Hotels                                 /industries/hotels
@@ -169,15 +169,15 @@ PAGE COUNT SUMMARY:
 │ Homepage                        │ 1         │ EXISTS     │
 │ Solution overview pages         │ 6         │ EXISTS     │
 │ Catalogue listing pages         │ 6         │ CREATE     │
-│ Product detail pages            │ TBD       │ CREATE     │
+│ Product detail pages            │ 120       │ CREATE     │
 │ Industry pages                  │ 3         │ EXISTS     │
 │ Case study index                │ 1         │ EXISTS     │
 │ Case study pages                │ 5         │ EXISTS     │
 │ Wizard / Estimate               │ 1         │ EXISTS     │
 │ Support pages                   │ 6         │ EXISTS     │
 ├─────────────────────────────────┼───────────┼────────────┤
-│ TOTAL DEFINED PAGES             │ 28+       │            │
-│ PAGES TO CREATE                 │ 6+TBD     │            │
+│ TOTAL DEFINED PAGES             │ 154       │            │
+│ PAGES TO CREATE                 │ 126       │            │
 │ PAGES EXISTING                  │ 28        │            │
 └─────────────────────────────────┴───────────┴────────────┘
 
@@ -231,7 +231,7 @@ The sitemap above is **fully consistent** with the Master's information architec
 2. **FAQ removed from top nav** — FAQ content is anxiety-reduction, not navigation. It belongs in the footer and is reachable from relevant support pages. Adding it to the top nav dilutes the conversion-focused navigation.
 3. **Fewer items = faster decisions** — B2B buyers scanning the nav should see 5 clear paths, not 7. The CTA button handles the most important action separately.
 
-**This navigation change requires owner validation** — the Master Section H.2 specifies 7 items including Estimate and FAQ. This recommendation deviates. Owner approval required.
+**This navigation is APPROVED AND LOCKED.** The Master Section H.2 should be amended at a later gate to reflect the 5-item nav + CTA button structure.
 
 ### 4.2 Solutions Mega-Menu
 
@@ -357,7 +357,7 @@ All pages below L1 display breadcrumbs:
 | **Core CTA Path** | → `/estimate` (pre-filled with product selection) (primary) or → `/contact` (secondary) |
 | **Relationships** | Links TO: wizard, related products (cross-sell), parent catalogue page. Linked FROM: parent catalogue page, solution page. |
 | **Persona Reach** | Most-aware buyers ready to act (Level 5). |
-| **Status** | **DO NOT EXIST. Must be created.** Exact count depends on owner's product catalog decisions. |
+| **Status** | **DO NOT EXIST. Must be created.** Launch target: 120 product detail pages (6 categories × 20 products each). Names/slugs/specs for Shower Glass, Architectural Glass, and Standard Mirrors are pending owner definition. |
 
 ### 5.5 Industries
 
@@ -454,7 +454,7 @@ All pages below L1 display breadcrumbs:
 | 19_SUPPORT-FAQ.md | **KEEP — REVISION** | Good content coverage. Must: (1) add in-page anchor navigation, (2) add link targets to CTAs, (3) resolve phone placeholder, (4) ensure answers link to dedicated support pages rather than duplicating content. |
 | 20_SUPPORT-WARRANTY.md | **KEEP — REVISION** | Adequate structure. Must: (1) remove French "Titre" labels, (2) resolve phone placeholder, (3) add link target for "Download Warranty PDF", (4) coordinate claims content with Returns page to eliminate duplication. |
 | 21_SUPPORT-SHIPPING.md | **KEEP — REVISION** | Adequate structure. Must: (1) remove French "Titre" labels, (2) resolve phone placeholder, (3) define "Track Order" action. |
-| 22_SUPPORT-RETURNS.md | **KEEP — MERGE with Warranty** | Heavy content overlap with Warranty page (claims process duplicated). Recommendation: **consolidate claims process into Warranty page**. Returns page should focus exclusively on: return eligibility, return initiation, shipping costs for returns, refund/replacement process. Claims (warranty-related) should link to Warranty page. This reduces content duplication and simplifies maintenance. |
+| 22_SUPPORT-RETURNS.md | **KEEP — REVISION (content deduplication and scoping)** | Content overlap with Warranty page exists (claims process duplicated). Both /warranty and /returns remain as standalone routes. **Scope clarification**: Warranty page = coverage, claims, exclusions, warranty process. Returns page = return eligibility, return initiation, shipping responsibility, replacement/refund handling. Claims content that appears on both pages must be deduplicated: warranty-related claims belong on /warranty; return-related logistics belong on /returns. Each page links to the other where relevant. This is content deduplication and scoping, NOT a page merge or removal. |
 
 ### 6.6 Wizard
 
@@ -482,7 +482,7 @@ All 9 existing catalog files share the same structural issues: multi-product bun
 
 | File | Disposition | Rationale |
 |------|-------------|-----------|
-| 00_MASTER-GUIDELINES.md | **REMOVE — ARCHIVE** | Superseded by docs/00_MASTER_SYSTEM.md. Has no role in the final architecture. Should be moved to docs/archive/ or deleted. |
+| 00_MASTER-GUIDELINES.md | **ARCHIVE LATER — after build + QA + final owner approval** | Superseded by docs/00_MASTER_SYSTEM.md. Do NOT delete or archive at this stage. Must remain available for reference during build and QA. Will be archived to docs/archive/ after G7 deployment and final owner sign-off. |
 
 ### 6.9 Disposition Summary
 
@@ -491,10 +491,10 @@ All 9 existing catalog files share the same structural issues: multi-product bun
 | **KEEP — REVISION** | 20 | 05-10 (solutions), 11-16 (case studies), 17, 19-21 (support), 23 (wizard) |
 | **KEEP — REWRITE** | 5 | 01 (homepage), 02-04 (industries), 18 (contact) |
 | **SPLIT → new pages** | 9 | 31-34, 41-44, 51 (catalog bundles → individual product pages) |
-| **MERGE** | 1 | 22 (Returns) — claims content merged into 20 (Warranty) |
+| **DEDUPLICATE & SCOPE** | 1 | 22 (Returns) — content deduplicated with 20 (Warranty); both pages remain as standalone routes |
 | **CREATE** | 6 | Catalogue listing pages for all 6 solution categories |
-| **CREATE** | ~38 | Individual product detail pages (extracted from catalog bundles) |
-| **REMOVE** | 1 | 00_MASTER-GUIDELINES.md (archive) |
+| **CREATE** | 120 | Individual product detail pages (6 categories × 20 products each; names/slugs/specs pending owner definition for Shower, Arch Glass, Standard) |
+| **ARCHIVE LATER** | 1 | 00_MASTER-GUIDELINES.md — archive after build + QA + final owner approval |
 | **DEFER** | 2 | Mixed-use industry page, Commercial office industry page |
 
 ---
@@ -514,20 +514,21 @@ All 9 existing catalog files share the same structural issues: multi-product bun
 
 ### 7.2 P0 — Must Create (Product Detail Pages)
 
-Individual product detail pages must be extracted from the 9 existing catalog bundle files. The exact count depends on owner's product catalog decisions, but based on existing content:
+Individual product detail pages must be created for all 6 solution categories. The launch target is **6 categories × 20 product detail pages each = 120 product detail pages total**.
 
-| Category | Products Identified in Existing Files | Product Detail Pages Needed |
-|----------|---------------------------------------|---------------------------|
-| LED Mirrors | ~18 products (across files 31-34) | ~18 |
-| Smart Mirrors | ~20 products (across files 41-44) | ~20 |
-| Medicine Cabinets | ~10 products (file 51 + 5 unreferenced) | ~10 |
-| Shower Glass | 0 products defined | **Owner must define product catalog** |
-| Architectural Glass | 0 products defined | **Owner must define product catalog** |
-| Standard Mirrors | 0 products defined | **Owner must define product catalog** |
+| Category | Products in Existing Files | Launch Target (PDPs) | Names/Specs Status |
+|----------|---------------------------|----------------------|-------------------|
+| LED Mirrors | ~18 products identified (files 31-34) | 20 | Names/slugs to be reconciled and supplemented by owner |
+| Smart Mirrors | ~20 products identified (files 41-44) | 20 | Names/slugs to be reconciled by owner |
+| Medicine Cabinets | ~10 products identified (file 51 + 5 unreferenced) | 20 | Names/slugs to be defined/supplemented by owner |
+| Shower Glass | 0 products defined | 20 | **Names, slugs, and specs pending owner definition** |
+| Architectural Glass | 0 products defined | 20 | **Names, slugs, and specs pending owner definition** |
+| Standard Mirrors | 0 products defined | 20 | **Names, slugs, and specs pending owner definition** |
+| **TOTAL** | **~48 identified** | **120** | |
 
 ### 7.3 P1 — Recommended (Not Blocking)
 
-No additional pages are recommended at this time. The 6 catalogue listing pages and ~48+ product detail pages represent a significant content production workload. Adding more pages before these are complete would dilute execution quality.
+No additional pages are recommended at this time. The 6 catalogue listing pages and 120 product detail pages represent a significant content production workload. Adding more pages before these are complete would dilute execution quality.
 
 The mixed-use and commercial office industry pages are deferred (Section 3.2) because they lack supporting case studies and industry-specific proof.
 
@@ -678,7 +679,7 @@ Page models define the content structure, block order, and specification for eac
 | **3.4** | Catalogue listing page model (template) | 1 model | 6 catalogue pages share the same structure. Depends on product data being defined. |
 | **3.5** | Product detail page model (template) | 1 model | All product detail pages share the same structure. Depends on catalogue model. |
 | **3.6** | Homepage model | 1 model | Homepage aggregates content from all other models. Must be modeled last. |
-| **3.7** | Support page models (templates) | 4 models | About, FAQ, Warranty, Contact. Shipping and Returns follow simplified variants of FAQ/Warranty. |
+| **3.7** | Support page models (templates) | 6 models | About, FAQ, Warranty, Returns, Shipping, Contact. Returns and Warranty have distinct scopes (see Section 6.5). |
 | **3.8** | Wizard model | 1 model | Already extensively specified in file 23. Needs validation and cleanup, not creation. |
 
 ### 10.2 Gate 4 — Content Production (What to Write First)
@@ -691,8 +692,8 @@ Content production follows the page model sequence, with each family batch-produ
 | **P2** | Industry pages (Hotels, Real Estate, Senior Living) | 3 | Industry page model + solution pages approved | 3 turns |
 | **P3** | Case studies (all 5) | 5 | Case study model + solution/industry pages approved | 2-3 turns |
 | **P4** | Catalogue listing pages (all 6) | 6 | Catalogue model + product data defined | 2-3 turns |
-| **P5** | Product detail pages (LED, Smart, Cabinets) | ~48 | Product detail model + catalogue pages approved | 6-8 turns (batch by category) |
-| **P6** | Product detail pages (Shower, Arch Glass, Standard) | TBD | Owner must define product catalogs for these 3 categories | TBD |
+| **P5** | Product detail pages (LED, Smart, Cabinets) | 60 | Product detail model + catalogue pages approved | 8-10 turns (batch by category, 20 per category) |
+| **P6** | Product detail pages (Shower, Arch Glass, Standard) | 60 | Owner must define product names, slugs, and specs for these 3 categories | 8-10 turns (batch by category, 20 per category) |
 | **P7** | Homepage | 1 | All other pages approved | 1 turn |
 | **P8** | Support pages (About, Contact, FAQ, Warranty, Shipping, Returns) | 6 | Support models approved | 2-3 turns |
 | **P9** | Wizard cleanup | 1 | All content approved | 1 turn |
@@ -725,11 +726,11 @@ Within a phase, pages within the same family CAN be produced in parallel (e.g., 
 | # | Decision | Context | Options | Recommendation | Impact if Deferred |
 |---|----------|---------|---------|----------------|-------------------|
 | **A1** | Product naming: Which product names are canonical? | Existing catalog files use inconsistent names. Content says "FLEUVE" for LED, "INTELLI/GENIUS" for Smart, "ESSENTIAL/DELUXE" for Cabinets. Filenames reference "ILLUMA", "NEXA", "RITUAL". | (a) Content names are canonical, filenames are legacy. (b) Filename names are canonical, content needs rewriting. (c) Owner provides definitive product catalog. | **Option C — Owner provides definitive product catalog with canonical names, slugs, and specs.** | Blocks all catalogue and product detail page production (P4-P6). |
-| **A2** | Navigation: Accept 5-item nav + CTA button, or keep Master's 7-item nav? | This document recommends 5 nav links + persistent CTA button (Sections 4.1). Master Section H.2 specifies 7 items including Estimate and FAQ. | (a) Approve 5-item nav + CTA button. (b) Keep 7-item nav as specified in Master. | **Option A** — Fewer nav items focus the buyer's attention and elevate the CTA. FAQ is accessible from footer and support pages. | Master Section H.2 would need amendment if Option A. |
-| **A3** | Returns page: Merge claims into Warranty, or keep separate? | This document recommends consolidating claims process into Warranty page (Section 6.5). | (a) Consolidate claims into Warranty. Returns focuses on return eligibility/process only. (b) Keep both pages as-is with duplicated claims content. | **Option A** — Reduces content duplication, simplifies maintenance, clarifies user journey. | Content production for Returns page. |
+| **A2** | ~~Navigation: Accept 5-item nav + CTA button, or keep Master's 7-item nav?~~ | ~~This document recommends 5 nav links + persistent CTA button (Sections 4.1). Master Section H.2 specifies 7 items including Estimate and FAQ.~~ | ~~(a) Approve 5-item nav + CTA button. (b) Keep 7-item nav as specified in Master.~~ | ~~**Option A**~~ | ~~Master Section H.2 would need amendment if Option A.~~ | ✅ **RESOLVED — LOCKED.** 5 nav items + persistent CTA button approved and locked. Master H.2 to be amended in a future gate. |
+| **A3** | ~~Returns page: Merge claims into Warranty, or keep separate?~~ | ~~This document recommended consolidating claims process into Warranty page (Section 6.5).~~ | ~~(a) Consolidate claims into Warranty. Returns focuses on return eligibility/process only. (b) Keep both pages as-is with duplicated claims content.~~ | ~~**Option A**~~ | ~~Content production for Returns page.~~ | ✅ **RESOLVED — LOCKED.** Both /warranty and /returns remain as standalone routes. Content deduplication and scoping applied (see Section 6.5). No page merge or removal. |
 | **A4** | Product catalog for Shower Glass, Architectural Glass, Standard Mirrors | No product names, specs, or slugs exist for these 3 categories. Solution pages exist but have no product content to link to. | (a) Owner provides product definitions. (b) Remove catalogue links from these 3 solution pages — make them estimate-only. (c) Defer these categories to post-launch. | **Option A** — All 6 categories should have complete product funnels. | Blocks P4-P6 for 3 categories. If deferred, 3 solution pages become dead-ends at catalogue level. |
 | **A5** | Mixed-use and commercial office industry pages | Referenced in existing content but no dedicated pages exist. | (a) Create both. (b) Create mixed-use only (has case study). (c) Defer both. | **Option C — Defer both.** No case studies or industry-specific proof exists for commercial office. Mixed-use can be reconsidered if demand warrants it. | Minimal impact — these are not in the Master's sitemap. |
-| **A6** | Legacy file: Archive or delete 00_MASTER-GUIDELINES.md? | Superseded by docs/00_MASTER_SYSTEM.md. Still in repository root. | (a) Move to docs/archive/. (b) Delete entirely. | **Option A** — Archive preserves history while removing confusion. | None — but clutters the repo. |
+| **A6** | ~~Legacy file: Archive or delete 00_MASTER-GUIDELINES.md?~~ | ~~Superseded by docs/00_MASTER_SYSTEM.md. Still in repository root.~~ | ~~(a) Move to docs/archive/. (b) Delete entirely.~~ | ~~**Option A**~~ | ~~None — but clutters the repo.~~ | ✅ **RESOLVED — LOCKED.** Status: ARCHIVE LATER — after build + QA + final owner approval. Do NOT delete or archive now. |
 | **A7** | Pricing data for catalog and product pages | Multiple pages contain "$XXX" placeholders. | (a) Owner provides real pricing now. (b) Defer pricing to post-launch. (c) Use "Request a Quote" model (no prices shown). | **Owner decision** — impacts all catalogue and product detail pages. Real pricing dramatically improves conversion. Quote-only model shifts more traffic to wizard. | All catalogue and product detail pages. |
 
 ---
@@ -760,7 +761,7 @@ An entity hub is a page that AI systems recognize as the **definitive reference*
 | **Warranty Page** | **SPECIALIZED HUB** | Warranty terms and claims process | "What does HILO's 5-year warranty cover?" |
 | **Shipping Page** | **SPECIALIZED HUB** | Delivery logistics and timelines | "How long does HILO take to deliver?" |
 
-Pages NOT designated as entity hubs: Contact (utility page), Returns (being merged into Warranty), Estimate/Wizard (conversion tool, not an information resource).
+Pages NOT designated as entity hubs: Contact (utility page), Returns (standalone page with deduplicated scope — see Section 6.5), Estimate/Wizard (conversion tool, not an information resource).
 
 ### 12.3 Comparative / Evaluative Intent Targets
 
@@ -849,7 +850,7 @@ Beyond the entity hubs and comparative targets, certain pages have outsized impo
 | **Warranty Page** (`/warranty`) | "What does the warranty cover?" is a top-of-funnel AI query for B2B buyers. Warranty terms are factual and highly citable. | EXISTS — revision needed | Ensure coverage table is clearly structured, add schema.org markup, consolidate claims content from Returns page |
 | **Solution Pages** (all 6) | Category authority pages. When someone asks "What are the best commercial LED mirrors?", AI systems extract from solution pages that present clear category definitions, specifications, comparisons, and proof. | EXIST — revision needed | Add definition blocks, ensure comparison tables are extractable, add FAQ blocks, add cross-links to industries and case studies |
 | **Catalogue Pages** (all 6, TO CREATE) | Product comparison hubs. "Which LED mirror should I choose for a hotel?" — AI systems extract from catalogue grids. | MUST CREATE | Design with comparison grid as the primary content block, include per-product spec summaries in extractable format |
-| **Product Detail Pages** (~48, TO CREATE) | Individual product entities. AI systems cite specific product pages when answering questions about specific models. | MUST CREATE | Include structured spec tables, pricing info, feature lists, and "Specifications" as a clearly marked section |
+| **Product Detail Pages** (120, TO CREATE) | Individual product entities. AI systems cite specific product pages when answering questions about specific models. | MUST CREATE | Include structured spec tables, pricing info, feature lists, and "Specifications" as a clearly marked section |
 
 ### 12.8 Future Content Formats to Increase Citation Probability
 
@@ -872,8 +873,25 @@ The current architecture focuses on static content pages. Post-launch, the follo
 | **G3 (Page Models)** | Every page model must include: (1) a structured information block section, (2) FAQ block where designated, (3) comparison block where designated, (4) definition block on solution pages. Page models must specify what schema.org markup types each page will use. |
 | **G4 (Content Production)** | Every content draft must be evaluated against AI extraction criteria: "Can an AI system extract a meaningful answer from this page?" Content writers must include specific data points, not just qualitative claims. Internal links must use descriptive anchor text. |
 | **G5 (Site Build)** | Schema.org markup implementation: Organization, Product, FAQPage, BreadcrumbList, LocalBusiness, WebSite. XML sitemap generation. robots.txt configuration. Canonical URL management. |
-| **G6 (QA / SEO)** | QA checklist must include AI extraction validation: (1) Is every FAQ answer self-contained? (2) Do all comparison tables have clear headers? (3) Are specification tables complete and extractable? (4) Do all internal links have descriptive anchor text? (5) Is schema.org markup valid? |
+| **G6 (QA / SEO / AI Discoverability Validation)** | QA checklist must include AI extraction validation: (1) Is every FAQ answer self-contained? (2) Do all comparison tables have clear headers? (3) Are specification tables complete and extractable? (4) Do all internal links have descriptive anchor text? (5) Is schema.org markup valid? **Additionally, G6 now includes a formal AI Discoverability Validation acceptance layer (see Section 12.10 below).** |
+
+### 12.10 Gate 6 — AI Discoverability Validation (Formal Acceptance Layer)
+
+AI Discoverability is not only a cross-gate architectural principle — it is also a **formal Gate 6 acceptance criterion**. Before the site can pass G6 validation, the following AI discoverability checks must be explicitly verified and documented:
+
+| # | Validation Check | What Is Verified | Pass Criteria |
+|---|-----------------|-----------------|---------------|
+| 1 | **Crawlability and Indexability** | All 154 pages are discoverable by search engine crawlers and AI retrieval systems. | XML sitemap includes all pages. robots.txt allows crawling of all content pages. No `noindex` on any content page. |
+| 2 | **Internal Linking Coverage** | Every page is reachable from at least 2 navigation paths (per Master Section H.2). | No orphan pages. Cross-linking rules from Section 8.5 and Section 12.6 are implemented. |
+| 3 | **Structured Data / Schema Implementation** | Schema.org markup is implemented on all pages that require it. | Organization schema on About. Product schema on all 120 product detail pages. FAQPage schema on FAQ and all pages with FAQ blocks. BreadcrumbList on all pages below L1. LocalBusiness where applicable. |
+| 4 | **FAQ Extractability** | Every FAQ block on every designated page produces self-contained, citable answers. | Each FAQ answer is at least 3 sentences, contains specific data points, and does not reference external context. |
+| 5 | **Entity Consistency Across Pages** | Product names, company name, warranty terms, and key metrics are identical across all pages. | No conflicting data between any two pages. All 120 product pages use canonical product names. All pages reference the same warranty terms. |
+| 6 | **Snippet Eligibility / Preview Controls** | Meta descriptions, H1 tags, and page structure support accurate search snippets and AI answer previews. | Unique H1 per page. Meta description 150-160 characters. No misleading headings. Open Graph tags present. |
+| 7 | **Evidence-Backed Claims and Factual Consistency** | All claims on all pages are supported by evidence and consistent with the Master's proof doctrine (Section G.4). | No unquantified superlatives. Every metric traceable. No contradictions between pages. |
+| 8 | **AI-Organic Readiness** | The site is structurally eligible for citation by Google AI features, ChatGPT Search, and Microsoft Copilot/Bing AI. | Entity hub designations implemented (Section 12.2). Comparative blocks present on designated pages (Section 12.3). Definition blocks on all 6 solution pages. Internal linking uses descriptive anchor text. |
+
+**Gate 6 acceptance requires ALL 8 checks to pass.** A failure on any single check blocks G6 validation and prevents G7 deployment. This validation layer is mandatory — it is not optional, not a "nice-to-have," and not deferrable to post-launch.
 
 ---
 
-*This document defines the structural blueprint for the HILO website. It is subordinate to the Master System Document (docs/00_MASTER_SYSTEM.md) in all matters of strategic, editorial, and conversion doctrine. It will be referenced by Gate 3 (Page Models) and Gate 4 (Content Production). AI Discoverability (Section 12) is a cross-gate structural requirement affecting G2 through G6.*
+*This document defines the structural blueprint for the HILO website. It is subordinate to the Master System Document (docs/00_MASTER_SYSTEM.md) in all matters of strategic, editorial, and conversion doctrine. It will be referenced by Gate 3 (Page Models) and Gate 4 (Content Production). AI Discoverability (Section 12) is a cross-gate structural requirement affecting G2 through G6, with a formal validation acceptance layer at G6 (Section 12.10).*
