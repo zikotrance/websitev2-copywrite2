@@ -3,7 +3,7 @@
 **Status**: LIVING DOCUMENT — Updated after every intervention
 **Last Updated**: 2026-04-07
 **Updated by**: GLM (Senior Conversion Architect)
-**Phase**: Gate 2 — Conversion Architecture (FINAL — Locked for Gate 3, Correction Pass v3 Applied)
+**Phase**: Gate 3 — Page Models and Prioritization (DRAFT — awaiting owner validation)
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Field | Value |
 |-------|-------|
-| **Phase Name** | Gate 2 — Conversion Architecture |
-| **Phase Number** | 2 |
-| **Objective** | Define final sitemap, navigation, page family map, CTA flow, disposition matrix, and production order |
-| **Status** | DRAFT — awaiting owner validation of conversion architecture |
-| **Started** | 2026-04-07 |
-| **Expected Completion** | Pending owner validation of docs/02_CONVERSION_ARCHITECTURE.md |
+| **Phase Name** | Gate 3 — Page Models and Prioritization |
+| **Phase Number** | 3 |
+| **Objective** | Create 14 page models, production priority matrix, catalogue/product scaling logic, and AI discoverability specifications for all 154 pages |
+| **Status** | DRAFT — awaiting owner validation of docs/03_PAGE_MODELS_AND_PRIORITIZATION.md |
+| **Started** | 2026-04-08 |
+| **Expected Completion** | Pending owner validation of Gate 3 deliverable |
 
 ---
 
@@ -31,7 +31,7 @@
 | **Governance documents** | 3/3 created (Master v1.2 + WorkProgress + Conversion Architecture FINAL) |
 | **Site build status** | NOT STARTED |
 | **Deployment status** | NOT STARTED |
-| **Overall project health** | AMBER — G1 approved, G2 architecture FINAL and locked, major content gaps identified, nav/returns/warranty decisions resolved |
+| **Overall project health** | AMBER — G1 approved, G2 locked, G3 page models drafted, product data dependencies unresolved |
 
 ---
 
@@ -40,9 +40,9 @@
 | Resource | Status |
 |----------|--------|
 | **Available turns** | Current session active |
-| **Priority for next turn** | Owner validation of Gate 2 architecture (7 open decisions) |
+| **Priority for next turn** | Owner validation of Gate 3 page models and production matrix |
 | **Estimated turns for content production** | ~35-45 turns (based on 154 pages, batch production by family) |
-| **Critical path** | G2 approval → G3 page models (8 models) → G4 content production (10 phases) → G5 build → G6 QA → G7 deploy |
+| **Critical path** | G3 approval → G4 content production (10 phases, 34-42 turns) → G5 build → G6 QA (incl. AI discoverability validation) → G7 deploy |
 
 ---
 
@@ -93,8 +93,9 @@
 | File | Path | Status |
 |------|------|--------|
 | Master System | docs/00_MASTER_SYSTEM.md | ✅ APPROVED (G1) — v1.2 |
-| Work Progress | docs/01_WORKPROGRESS.md | ✅ APPROVED (G1) — this file |
-| Conversion Architecture | docs/02_CONVERSION_ARCHITECTURE.md | ⚠️ DRAFT (G2) — awaiting owner validation |
+| Work Progress | docs/01_WORKPROGRESS.md | ✅ ACTIVE (G3) — this file |
+| Page Models & Prioritization | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md | ⚠️ DRAFT (G3) — awaiting owner validation |
+| Conversion Architecture | docs/02_CONVERSION_ARCHITECTURE.md | ✅ FINAL (G2) — Locked for Gate 3 |
 
 ---
 
@@ -239,8 +240,8 @@
 |------|------|--------|-------------|
 | **G1** | Governance Foundation | ✅ APPROVED | Master System v1.2 + WorkProgress |
 | **G2** | Conversion Architecture | ✅ FINAL — Locked for Gate 3 (Correction Pass v3 Applied) | docs/02_CONVERSION_ARCHITECTURE.md |
-| **G3** | Page Models and Prioritization | NOT STARTED — blocked by G2 | 8 page-type models + production priority matrix |
-| **G4** | Content Production | NOT STARTED — blocked by G3 | 154 pages across 10 production phases |
+| **G3** | Page Models and Prioritization | ⚠️ DRAFT — awaiting owner validation | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md (14 page models + production matrix + scaling logic) |
+| **G4** | Content Production | NOT STARTED — blocked by G3 | 154 pages across 10 production phases (P1-P10) |
 | **G5** | Site Build | NOT STARTED — blocked by G4 | Functional website with all content |
 | **G6** | QA / CRO / SEO Validation | NOT STARTED — blocked by G5 | QA checklist passed, CRO review, SEO audit |
 | **G7** | Deployment | NOT STARTED — blocked by G6 | Live website, owner sign-off |
@@ -289,6 +290,20 @@
 ---
 
 ## 12. Change Log / Turn History
+
+### Turn 5 — 2026-04-08 (Gate 3 — Page Models and Prioritization)
+
+| Action | Detail |
+|--------|--------|
+| **Created** | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md — full Gate 3 deliverable (1,106 lines, 7 sections) |
+| **Defined** | 14 complete page models (Homepage, Industry, Solution, Catalogue, Product Detail, Case Study Index, Individual Case Study, About, Contact, FAQ, Warranty, Returns, Shipping, Wizard) |
+| **Defined** | Per-model specifications: route pattern, conversion role, audience/awareness level, CTAs, mandatory content blocks in exact order, proof elements, HILO criteria coverage, internal links, AI-discoverability blocks, schema intent, common mistakes, definition of done |
+| **Defined** | Catalogue and product scaling logic — standardized block system for 120 product detail pages, variable vs. standardized elements clearly mapped |
+| **Defined** | Priority matrix for Gate 4: 10 production phases (P1-P10), dependency chain, parallelization rules, estimated 34-42 turns |
+| **Defined** | AI discoverability specifications per page type — entity hub status, answer-ready blocks, FAQ requirements, comparison/spec requirements, entity definitions, internal linking rules, citation-friendly features |
+| **Identified** | 6 open dependencies for Gate 4: A1 (product naming), A4 (3 missing categories), A7 (pricing model), phone/address, warranty PDF, photos |
+| **Defined** | Gate 3 approval checklist (6 categories, 25+ checklist items) for owner validation |
+| **Updated** | WorkProgress: G3 status DRAFT, gate status table, governance files table, budget section, overall health |
 
 ### Turn 4 — 2026-04-07 (Gate 2 Correction Pass v3 — FINAL LOCK)
 
