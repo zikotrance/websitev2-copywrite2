@@ -40,7 +40,7 @@
 | Resource | Status |
 |----------|--------|
 | **Available turns** | Current session active |
-| **Priority for next turn** | Owner validation of Gate 3 page models and production matrix |
+| **Priority for next turn** | Owner authorizes next production batch; provide product data (A1, A4, A7) |
 | **Estimated turns for content production** | ~35-45 turns (based on 154 pages, batch production by family) |
 | **Critical path** | G3 approval → G4 content production (10 phases, 34-42 turns) → G5 build → G6 QA (incl. AI discoverability validation) → G7 deploy |
 
