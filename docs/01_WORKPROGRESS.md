@@ -1,9 +1,9 @@
 # WORKPROGRESS — HILO Website Project
 
 **Status**: LIVING DOCUMENT — Updated after every intervention
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-08
 **Updated by**: GLM (Senior Conversion Architect)
-**Phase**: Gate 3 — Page Models and Prioritization (DRAFT — awaiting owner validation)
+**Phase**: Gate 4A — Content Production (Compressed Batch Execution Mode)
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Field | Value |
 |-------|-------|
-| **Phase Name** | Gate 3 — Page Models and Prioritization |
-| **Phase Number** | 3 |
-| **Objective** | Create 14 page models, production priority matrix, catalogue/product scaling logic, and AI discoverability specifications for all 154 pages |
-| **Status** | DRAFT — awaiting owner validation of docs/03_PAGE_MODELS_AND_PRIORITIZATION.md |
+| **Phase Name** | Gate 4 — Content Production (Compressed Batch Execution) |
+| **Phase Number** | 4 |
+| **Objective** | Produce page content following approved G3 page models. Batch 4A: 6 solution pages + 3 industry pages. |
+| **Status** | IN PROGRESS — Batch 4A complete (9/154 pages produced). Awaiting next batch authorization. |
 | **Started** | 2026-04-08 |
-| **Expected Completion** | Pending owner validation of Gate 3 deliverable |
+| **Expected Completion** | Remaining batches TBD (Homepage, Case Studies, Support, Wizard, Catalogue, Product Detail pages) |
 
 ---
 
@@ -25,13 +25,13 @@
 | Metric | Value |
 |--------|-------|
 | **Total pages defined in architecture** | 28 existing + 6 catalogue (create) + 120 product detail (create) = 154 |
-| **Pages complete (DoD passed)** | 0 |
-| **Pages in draft** | 28 (existing content files) |
+| **Pages complete (DoD passed)** | 9 (6 solution + 3 industry — G4A batch) |
+| **Pages in draft** | 19 (remaining existing files: homepage, 6 case studies, 6 support, wizard) |
 | **Pages to create** | 6 catalogue listing pages + 120 product detail pages |
 | **Governance documents** | 3/3 created (Master v1.2 + WorkProgress + Conversion Architecture FINAL) |
 | **Site build status** | NOT STARTED |
 | **Deployment status** | NOT STARTED |
-| **Overall project health** | AMBER — G1 approved, G2 locked, G3 page models drafted, product data dependencies unresolved |
+| **Overall project health** | AMBER — G1 approved, G2 locked, G3 approved, G4A complete (9 pages), product data dependencies unresolved |
 
 ---
 
@@ -56,15 +56,15 @@
 |---|------|------|-------|-------------------|
 | 00 | 00_MASTER-GUIDELINES.md | Legacy Master | 2,264 | ARCHIVE LATER — after build + QA + final owner approval |
 | 01 | 01_HOMEPAGE.md | Homepage | 4,262 | KEEP — REWRITE |
-| 02 | 02_INDUSTRIES-HOTELS.md | Industry | 499 | KEEP — REWRITE |
-| 03 | 03_INDUSTRIES-REAL-ESTATE.md | Industry | 479 | KEEP — REWRITE |
-| 04 | 04_INDUSTRIES-SENIOR-LIVING.md | Industry | 472 | KEEP — REWRITE |
-| 05 | 05_SOLUTIONS-LED-MIRRORS.md | Solution | 1,472 | KEEP — REVISION |
-| 06 | 06_SOLUTIONS-SMART-MIRRORS.md | Solution | 1,655 | KEEP — REVISION |
-| 07 | 07_SOLUTIONS-MEDICINE-CABINETS.md | Solution | 1,881 | KEEP — REVISION |
-| 08 | 08_SOLUTIONS-SHOWER-GLASS.md | Solution | 2,010 | KEEP — REVISION |
-| 09 | 09_SOLUTIONS-ARCHITECTURAL-GLASS.md | Solution | 2,435 | KEEP — REVISION |
-| 10 | 10_SOLUTIONS-STANDARD-MIRRORS.md | Solution | 1,916 | KEEP — REVISION |
+| 02 | 02_INDUSTRIES-HOTELS.md | Industry | 2,133 | ✅ G4A COMPLETE — Rewritten to B.2 model |
+| 03 | 03_INDUSTRIES-REAL-ESTATE.md | Industry | 2,401 | ✅ G4A COMPLETE — Rewritten to B.2 model |
+| 04 | 04_INDUSTRIES-SENIOR-LIVING.md | Industry | 2,598 | ✅ G4A COMPLETE — Rewritten to B.2 model |
+| 05 | 05_SOLUTIONS-LED-MIRRORS.md | Solution | 3,621 | ✅ G4A COMPLETE — Revised to B.3 model |
+| 06 | 06_SOLUTIONS-SMART-MIRRORS.md | Solution | 3,854 | ✅ G4A COMPLETE — Revised to B.3 model |
+| 07 | 07_SOLUTIONS-MEDICINE-CABINETS.md | Solution | 4,198 | ✅ G4A COMPLETE — Revised to B.3 model |
+| 08 | 08_SOLUTIONS-SHOWER-GLASS.md | Solution | 3,729 | ✅ G4A COMPLETE — Revised to B.3 model |
+| 09 | 09_SOLUTIONS-ARCHITECTURAL-GLASS.md | Solution | 4,056 | ✅ G4A COMPLETE — Revised to B.3 model |
+| 10 | 10_SOLUTIONS-STANDARD-MIRRORS.md | Solution | 4,194 | ✅ G4A COMPLETE — Revised to B.3 model |
 | 11 | 11_CASE-STUDIES-INDEX.md | Case Study Index | 842 | KEEP — REVISION |
 | 12 | 12_CASE-STUDIES-HOTEL-ROLLUP.md | Case Study | 1,110 | KEEP — REVISION |
 | 13 | 13_CASE-STUDIES-MULTI-FAMILY.md | Case Study | 966 | KEEP — REVISION |
@@ -94,7 +94,7 @@
 |------|------|--------|
 | Master System | docs/00_MASTER_SYSTEM.md | ✅ APPROVED (G1) — v1.2 |
 | Work Progress | docs/01_WORKPROGRESS.md | ✅ ACTIVE (G3) — this file |
-| Page Models & Prioritization | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md | ⚠️ DRAFT (G3) — awaiting owner validation |
+| Page Models & Prioritization | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md | ✅ APPROVED (G3) |
 | Conversion Architecture | docs/02_CONVERSION_ARCHITECTURE.md | ✅ FINAL (G2) — Locked for Gate 3 |
 
 ---
@@ -127,14 +127,14 @@
 | **No individual product detail pages exist** | 9 existing files are multi-product bundles, not individual pages. Master's 3-level product hierarchy is structurally incomplete. | 🔴 P0 |
 | **3 solution categories have zero product content** | Shower Glass, Architectural Glass, Standard Mirrors have solution pages but no catalogue or product pages. Complete dead-end. | 🔴 P0 |
 | **All catalog filenames reference wrong product names** | Every catalog file's filename uses legacy brand names (ILLUMA, NEXA, RITUAL) that don't match their content (FLEUVE, INTELLI, GENIUS, ESSENTIAL). | 🔴 P0 |
-| **Zero cross-linking between solutions and industries** | Two major page families are completely siloed. Visitors cannot navigate between them. | 🔴 P0 |
+| ~~**Zero cross-linking between solutions and industries**~~ | ~~Two major page families are completely siloed~~ | ✅ RESOLVED (G4A) — All 6 solution pages have Industry Relevance blocks. All 3 industry pages link to 4 solution categories each. |
 
 ### 6.2 MODERATE Issues (Fix During G4)
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
-| All 3 industry pages critically thin (~470-500 words) | Fail Section I.0.2 depth tests | 🟡 P1 |
-| French metadata leakage in 12 content files | "Titre", "Projet", "LIVRABLE" labels throughout | 🟡 P1 |
+| ~~All 3 industry pages critically thin (~470-500 words)~~ | ~~Fail Section I.0.2 depth tests~~ | ✅ RESOLVED (G4A) — All 3 rewritten to 2,100-2,600 words |
+| ~~French metadata leakage in 12 content files~~ | ~~"Titre", "Projet", "LIVRABLE" labels throughout~~ | ✅ PARTIALLY RESOLVED (G4A) — French metadata removed from all 9 G4A files. Remaining 19 files to be addressed in subsequent batches. |
 | Placeholder phone/address/pricing data in 9+ files | Cannot launch with placeholders | 🟡 P1 |
 | No case study blocks on solution pages | Only industry pages have social proof sections | 🟡 P1 |
 | CTA link targets unspecified on most pages | "See All Products", "Read Full Case Study", "Book a Call" have no defined paths | 🟡 P1 |
@@ -146,8 +146,8 @@
 | Issue | Impact | Priority |
 |-------|--------|----------|
 | **Zero structured data markup** — no schema.org, JSON-LD, or any semantic markup exists anywhere in the repo | AI systems cannot extract structured information from the site. This is a foundational blocker for AI discoverability. Must be implemented at Gate 5 (build). | 🔴 P0 (G5 dependency) |
-| **Solution pages lack FAQ blocks** — only industry pages and homepage have FAQ sections | AI systems heavily cite FAQ content. Solution pages are the primary entity hubs but have no FAQ blocks to extract. | 🟡 P1 (G4 fix) |
-| **Solution pages lack definition blocks** — no clear product category definitions | AI systems need concise, extractable definitions to understand what HILO offers. Must be added to all 6 solution pages during G4 revision. | 🟡 P1 (G4 fix) |
+| ~~**Solution pages lack FAQ blocks**~~ | ~~AI systems heavily cite FAQ content.~~ | ✅ RESOLVED (G4A) — All 6 solution pages now have 3-5 FAQ blocks |
+| ~~**Solution pages lack definition blocks**~~ | ~~No clear product category definitions~~ | ✅ RESOLVED (G4A) — All 6 solution pages now have Definition Blocks (Block 2) |
 | **Homepage does not link to industry pages** — only links to solution pages | Homepage is the primary entry point for AI crawlers. Missing industry links reduce topical authority signals. | 🟡 P1 (G4 fix) |
 | **No comparison grids on any existing page** — catalogue pages don't exist yet | Comparison grids are the #1 AI-citable structure for product queries. Must be a primary content block on all 6 catalogue pages when created. | 🟡 P1 (G4 creation) |
 
@@ -240,8 +240,8 @@
 |------|------|--------|-------------|
 | **G1** | Governance Foundation | ✅ APPROVED | Master System v1.2 + WorkProgress |
 | **G2** | Conversion Architecture | ✅ FINAL — Locked for Gate 3 (Correction Pass v3 Applied) | docs/02_CONVERSION_ARCHITECTURE.md |
-| **G3** | Page Models and Prioritization | ⚠️ DRAFT — awaiting owner validation | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md (14 page models + production matrix + scaling logic) |
-| **G4** | Content Production | NOT STARTED — blocked by G3 | 154 pages across 10 production phases (P1-P10) |
+| **G3** | Page Models and Prioritization | ✅ APPROVED | docs/03_PAGE_MODELS_AND_PRIORITIZATION.md (14 page models + production matrix + scaling logic) |
+| **G4** | Content Production | 🔄 IN PROGRESS — Batch 4A complete (9/154 pages) | Compressed batch execution: 4A (solutions+industries) ✅ → 4B+ pending |
 | **G5** | Site Build | NOT STARTED — blocked by G4 | Functional website with all content |
 | **G6** | QA / CRO / SEO Validation | NOT STARTED — blocked by G5 | QA checklist passed, CRO review, SEO audit |
 | **G7** | Deployment | NOT STARTED — blocked by G6 | Live website, owner sign-off |
@@ -290,6 +290,28 @@
 ---
 
 ## 12. Change Log / Turn History
+
+### Turn 6 — 2026-04-08 (Gate 4A — Compressed Batch: Solution Pages + Industry Pages)
+
+| Action | Detail |
+|--------|--------|
+| **Rewrote** | 6 solution pages (files 05-10) to approved B.3 page model — all restructured to 14 mandatory blocks |
+| **Rewrote** | 3 industry pages (files 02-04) to approved B.2 page model — all expanded from ~500 words to 2,100-2,600 words |
+| **Added** | Definition Blocks to all 6 solution pages (Block 2 — AI-citable category definitions) |
+| **Added** | Comparison Blocks to all 6 solution pages (Block 9 — HILO vs Generic Alternatives table) |
+| **Added** | Specification Tables to all 6 solution pages (Block 10 — category-level technical data) |
+| **Added** | Cross-Sell Sections to all 6 solution pages (Block 11 — 2-3 related solution categories) |
+| **Added** | Industry Relevance Blocks to all 6 solution pages (Block 12 — 1-3 industry page links) |
+| **Added** | FAQ Blocks to all 6 solution pages (Block 13 — 3-5 category-specific Q&A items) |
+| **Added** | Industry Challenge sections to all 3 industry pages (Block 2 — 2-3 paragraphs of vertical-specific challenges) |
+| **Added** | 7 HILO Advantages (prose) to all 3 industry pages (Block 3 — industry-customized criteria) |
+| **Removed** | French metadata from all 9 files (Projet, Titre, PRINCIPAL, SECONDAIRE, Critère, Avantages Clés, Produits Recommandés) |
+| **Removed** | Dedicated AI Estimate sections from solution pages (Criterion #5 served through CTAs) |
+| **Removed** | Duplicate "Complete Product Range" sections (consolidated into Criterion #6) |
+| **Fixed** | Château Frontenac error on Senior Living page (replaced with correct senior living case study reference) |
+| **Fixed** | CTA link targets on all 9 pages (Primary → `/solutions/[slug]/catalogue` or `/estimate`, Secondary → `/contact`) |
+| **Updated** | WorkProgress: G3 approved, G4 in progress, 9/154 pages complete, multiple issues resolved |
+| **Word counts** | Solution pages: 3,621 – 4,198 words each (was 1,472 – 2,435). Industry pages: 2,133 – 2,598 words each (was 472 – 499). Total: 30,784 words produced. |
 
 ### Turn 5 — 2026-04-08 (Gate 3 — Page Models and Prioritization)
 
