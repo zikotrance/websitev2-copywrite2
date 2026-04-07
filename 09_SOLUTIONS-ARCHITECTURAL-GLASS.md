@@ -24,7 +24,7 @@ Architectural glass encompasses structural and decorative glass systems used in 
 
 ---
 
-## Block 3: Criterion #1 — Fiabilité Long Terme (Long-Term Reliability)
+## Block 3: Criterion #1 — Long-Term Reliability
 
 ## Architectural Glass That Performs Under Pressure
 
@@ -38,7 +38,7 @@ Our 5-year structural warranty covers glass panels, hardware, seals, and coating
 
 ---
 
-## Block 4: Criterion #2 — Prix Compétitif (Competitive Pricing)
+## Block 4: Criterion #2 — Competitive Pricing
 
 ## Commercial-Grade Glass at Competitive Prices
 
@@ -52,7 +52,7 @@ Volume pricing is available for projects of scale. Multi-product orders that inc
 
 ---
 
-## Block 5: Criterion #3 — Delivery Porte-à-Porte (Door-to-Door Delivery)
+## Block 5: Criterion #3 — Door-to-Door Delivery
 
 ## Specialized Handling for Architectural Glass
 
@@ -66,7 +66,7 @@ Large panel capabilities scale with project requirements. Panels up to 60 square
 
 ---
 
-## Block 6: Criterion #4 — Flexibilité (Flexibility)
+## Block 6: Criterion #4 — Flexibility
 
 ## Standard Solutions and Custom Engineering
 
@@ -90,7 +90,21 @@ Custom engineering is the right choice when your project demands solutions beyon
 
 ---
 
-## Block 7: Criterion #6 — Grand Choix Produits (Wide Product Selection)
+## Block 7: Criterion #5 — Instant AI Estimate
+
+## Architectural Glass Budgeting in 60 Seconds — No Phone Tag, No Delays
+
+Architectural glass quoting is one of the slowest procurement processes in commercial construction. Structural glass requires engineering review. Custom specifications need shop drawings. Facade systems demand PE-stamped documentation. Each of these requirements adds days or weeks to the quoting cycle, and the resulting quotes often arrive with significant exclusions or assumptions that require further clarification. For projects with multiple glass systems — partitions, railings, canopies, and facades — managing separate quoting processes for each system compounds the delay and creates coordination challenges that impact construction schedules.
+
+HILO's AI estimation tool delivers instant budgetary pricing for standard architectural glass configurations. Select your glass system type — partitions, railings, canopies, or facades — along with approximate dimensions, glass specifications, and hardware preferences. The tool generates a preliminary estimate in under sixty seconds that covers glass fabrication, edge finishing, standard hardware, and delivery to your project location. While custom engineering projects that require PE-stamped drawings, structural analysis, or non-standard specifications will need follow-up from our engineering team, the tool provides the immediate budgetary framework that architects and developers need during early design phases.
+
+Across 180+ commercial projects, HILO's estimation tool has proven particularly valuable during schematic design and construction document phases when budget certainty is critical but full engineering specifications may not yet be finalized. Generate preliminary estimates for multiple glass systems within a single session. Compare costs between partition types, railing systems, and canopy configurations to optimize budget allocation. Save estimates for design development milestones and share them with project stakeholders for faster decision-making. When full specifications are ready, your preliminary estimate converts seamlessly into a formal quote with engineering documentation.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8: Criterion #6 — Wide Product Selection
 
 ## Four Product Categories, Unlimited Configurations
 
@@ -116,7 +130,7 @@ Glass facades define building identity and performance. HILO supplies insulated 
 
 ---
 
-## Block 8: Criterion #7 — Installation
+## Block 9: Criterion #7 — Installation
 
 ## Expert Installation and Technical Support
 
@@ -130,7 +144,7 @@ Installation services are available across most metropolitan areas in Canada and
 
 ---
 
-## Block 9: Comparison Block
+## Block 10: Comparison Block
 
 ## HILO Architectural Glass vs. Generic Alternatives
 
@@ -154,7 +168,7 @@ The critical difference is accountability. Generic suppliers fabricate glass to 
 
 ---
 
-## Block 10: Specification Table
+## Block 11: Specification Table
 
 ## Architectural Glass Specifications
 
@@ -175,7 +189,7 @@ The critical difference is accountability. Generic suppliers fabricate glass to 
 
 ---
 
-## Block 11: Cross-Sell Section
+## Block 12: Cross-Sell Section
 
 ## Extend Your Architectural Glass Project
 
@@ -195,7 +209,7 @@ Projects that specify architectural glass for lobbies, common areas, and amenity
 
 ---
 
-## Block 12: Industry Relevance Block
+## Block 13: Industry Relevance Block
 
 ## Architectural Glass Solutions by Industry
 
@@ -205,17 +219,21 @@ HILO architectural glass serves commercial sectors where glass plays a defining 
 
 Hotel lobbies and public spaces are architectural glass showcases. Frameless glass partitions define check-in areas, lounge zones, and meeting spaces while maintaining the open, light-filled atmosphere that guests expect. Glass railings on mezzanine levels and balconies provide safety without compromising views. Entrance canopies in laminated glass create memorable first impressions while protecting arriving guests from weather. HILO's experience in hospitality environments means we understand the need for rapid turnaround, multi-site coordination, and finishes that match brand design standards. Our 5-year warranty provides hotel operators with confidence that their glass investments will perform through years of guest traffic.
 
+[Read the Boutique Hotel Case Study →](/case-studies/boutique-hotel)
+
 [Learn About Our Hotel Solutions →](/industries/hotels)
 
 ### Real Estate — Condo Common Areas and Amenities
 
 Multi-family and condo developments use architectural glass extensively in common areas including lobbies, fitness centers, pool surrounds, and amenity spaces. Glass partitions create private areas within open floor plans. Railing systems on balconies and terraces are often code-required and must meet strict safety standards. HILO's ability to supply multiple glass systems — partitions, railings, and common area mirrors — from a single source simplifies procurement for developers managing complex multi-phase projects. Volume pricing across product categories and consolidated delivery scheduling reduce both cost and coordination complexity for large-scale residential developments.
 
+[Read the Mixed-Use Development Case Study →](/case-studies/mixed-use)
+
 [Learn About Our Real Estate Solutions →](/industries/real-estate)
 
 ---
 
-## Block 13: FAQ Block
+## Block 14: FAQ Block
 
 ## Frequently Asked Questions About Architectural Glass
 
@@ -241,7 +259,7 @@ Tempered glass is heat-treated to create a surface compression that makes it fou
 
 ---
 
-## Block 14: Final CTA Section
+## Block 15: Final CTA Section
 
 ## Start Your Architectural Glass Project
 

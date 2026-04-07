@@ -22,7 +22,7 @@ LED mirrors are backlit or edge-lit mirror products designed for commercial envi
 
 ---
 
-## Block 3 — Criterion #1: Fiabilité Long Terme
+## Block 3 — Criterion #1: Long-Term Reliability
 
 ### 5 Years. Zero Breakages. Guaranteed.
 
@@ -41,7 +41,7 @@ Our clients report an average 94% reduction in mirror-related maintenance calls 
 
 ---
 
-## Block 4 — Criterion #2: Prix Compétitif
+## Block 4 — Criterion #2: Competitive Pricing
 
 ### Premium Quality. Competitive Pricing.
 
@@ -60,7 +60,7 @@ Competitive pricing is not just about the sticker price, however. It is about to
 
 ---
 
-## Block 5 — Criterion #3: Delivery Porte-à-Porte
+## Block 5 — Criterion #3: Door-to-Door Delivery
 
 ### From Our Warehouse to Your Doorstep
 
@@ -80,7 +80,7 @@ For multi-site projects, we can stage deliveries to match your construction time
 
 ---
 
-## Block 6 — Criterion #4: Flexibilité
+## Block 6 — Criterion #4: Flexibility
 
 ### Standard Catalogue. Fully Custom. Your Choice.
 
@@ -102,7 +102,21 @@ Many clients choose a hybrid approach—catalogue products for standard guest ro
 
 ---
 
-## Block 7 — Criterion #6: Grand Choix Produits
+## Block 7 — Criterion #5: Instant AI Estimate
+
+### Your Quote in 60 Seconds — No Sales Call Required
+
+Traditional mirror procurement wastes valuable project time. Requesting quotes typically means phone calls with sales representatives, days of waiting for responses, back-and-forth emails to clarify specifications, and inflated pricing from intermediaries who add markup without adding value. For commercial projects with tight construction timelines and multiple product categories to specify across hundreds of units, this outdated procurement process adds weeks to decision cycles and creates bottlenecks that delay installations and push back move-in dates.
+
+HILO's AI estimation tool eliminates this friction entirely. Select your product category, enter your quantity and any custom requirements, and receive an accurate, itemized estimate in under sixty seconds. No registration is required, no sales call is placed unless you specifically request one, and there is no obligation to purchase. The estimate includes per-unit pricing, delivery costs, and available volume discounts, giving you the exact information needed to make procurement decisions immediately rather than waiting days for a callback. For custom LED mirror configurations that fall outside standard catalogue parameters — such as non-standard dimensions, integrated lighting zones, or unique finish requirements — the tool automatically flags the request for personal follow-up from our commercial team within twenty-four hours.
+
+The estimation tool is purpose-built for how commercial buyers actually work. Compare pricing across LED mirror models in real time. Adjust quantities to model different building phases or unit types and see instant budget impact. Generate estimates for multiple properties and save them for future reference. When you are ready to move forward, your estimate converts directly to an order with a single click. Across 180+ commercial projects, HILO's AI estimation tool has reduced the average quote-to-order cycle from weeks to minutes, saving procurement teams significant time and enabling faster project decisions.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8 — Criterion #6: Wide Product Selection
 
 ### One Partner. Every Glass Solution.
 
@@ -116,7 +130,7 @@ Consolidating your glass and mirror procurement with HILO delivers measurable ad
 
 ---
 
-## Block 8 — Criterion #7: Installation
+## Block 9 — Criterion #7: Installation
 
 ### Professional Installation. Coast to Coast.
 
@@ -136,7 +150,7 @@ For projects where your own crews prefer to handle installation, HILO LED mirror
 
 ---
 
-## Block 9 — Comparison Block
+## Block 10 — Comparison Block
 
 ### HILO LED Mirrors vs. Generic Alternatives
 
@@ -158,7 +172,7 @@ The bottom line is clear: generic alternatives may appear to save money on the i
 
 ---
 
-## Block 10 — Specification Table
+## Block 11 — Specification Table
 
 ### LED Mirror Specifications
 
@@ -186,7 +200,7 @@ HILO LED mirrors are available in a wide range of sizes, configurations, and opt
 
 ---
 
-## Block 11 — Cross-Sell Section
+## Block 12 — Cross-Sell Section
 
 ### Complete Your Project With Related Solutions
 
@@ -204,7 +218,7 @@ Pairing LED mirrors with HILO medicine cabinets creates a fully integrated bathr
 
 ---
 
-## Block 12 — Industry Relevance Block
+## Block 13 — Industry Relevance Block
 
 ### LED Mirrors Across Industries
 
@@ -214,17 +228,23 @@ HILO LED mirrors serve a wide range of commercial and institutional sectors, eac
 
 LED mirrors have become the expected standard in hotel guest room bathrooms, replacing the outdated combination of a separate vanity light and plain mirror. Guests expect bright, even illumination for grooming, and the integrated design eliminates the shadows and glare that separate fixtures create. HILO LED mirrors deliver the reliability that hotel operators demand—with a sub-0.5% failure rate and 5-year warranty, maintenance teams can focus on guest needs rather than constantly replacing failed fixtures. Our multi-site delivery capabilities are particularly valuable for hotel brands managing renovations across multiple properties simultaneously.
 
+[Read the Hotel Chain Rollup Case Study →](/case-studies/hotel-chain-rollup)
+
 **Real Estate Development — Bathroom Packages That Sell**
 
 In multi-family residential developments and condominium projects, bathrooms are a primary driver of buyer and renter perception. LED mirrors signal quality and modernity in a way that standard mirrors simply cannot. HILO offers volume pricing programs and bathroom package bundles that allow developers to upgrade every unit's vanity lighting without exceeding budget constraints. Our AI estimation tool makes it easy to compare configurations and quantities across different unit types, generating accurate package pricing in seconds rather than days.
+
+[Read the Multi-Family Development Case Study →](/case-studies/multi-family)
 
 **Senior Living — Reliable, Safe Lighting**
 
 Senior living communities have unique bathroom requirements: consistent bright lighting for residents with declining vision, easy-to-use controls that do not require fine motor skills, and shatter-resistant construction for safety compliance. HILO LED mirrors address all of these needs with high-CRI 90+ lighting that renders colors accurately, simple touch controls, and tempered safety glass that meets strict safety requirements. The 5-year warranty and sub-0.5% failure rate are particularly valued in senior living environments where maintenance disruptions directly impact resident comfort and safety.
 
+[Read the Senior Living Case Study →](/case-studies/senior-living)
+
 ---
 
-## Block 13 — FAQ Block
+## Block 14 — FAQ Block
 
 ### Frequently Asked Questions About LED Mirrors
 
@@ -250,7 +270,7 @@ HILO's damage-free guarantee means that if any mirror arrives damaged, we ship a
 
 ---
 
-## Block 14 — Final CTA Section
+## Block 15 — Final CTA Section
 
 ### Ready to Upgrade Your Commercial Bathrooms?
 

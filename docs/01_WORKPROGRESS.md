@@ -175,7 +175,7 @@
 | Gated execution model (G1-G7) | 2026-04-07 | Master v1.2 | Section O |
 | G2 conversion architecture drafted | 2026-04-07 | Agent | Awaiting owner validation |
 
-### 7.1 Architectural Decisions Made at Gate 2 (PENDING OWNER VALIDATION)
+### 7.1 Architectural Decisions Made at Gate 2 (FINAL — LOCKED)
 
 | Decision | Recommendation | Status |
 |----------|---------------|--------|
@@ -195,7 +195,7 @@
 | # | Question | Context | Impact if Unresolved |
 |---|----------|---------|---------------------|
 | A1 | What are the canonical product names, slugs, and specs for all categories? | Existing files use inconsistent names. Owner must provide definitive product catalog. | Blocks all catalogue and product detail page production (P4-P6). |
-| A2 | Approve 5-item nav + CTA button (deviation from Master's 7 items)? | Estimate moves from nav item to persistent CTA button. FAQ moves to footer. | Blocks final navigation implementation. |
+| A2 | ~~Approve 5-item nav + CTA button (deviation from Master's 7 items)?~~ | ~~Estimate moves from nav item to persistent CTA button. FAQ moves to footer.~~ | ✅ **RESOLVED — LOCKED.** Nav approved and locked (5 + CTA). Master H.2 to be amended in a future gate. |
 | A3 | ~~Approve Returns/Warranty merge?~~ | ~~Reduces content duplication.~~ | ✅ **RESOLVED — LOCKED.** Both pages remain standalone. Content dedup and scoping applied. No merge. |
 | A4 | Provide product definitions for Shower Glass, Architectural Glass, Standard Mirrors? | No product names/specs exist for these 3 categories. | Blocks P4-P6 for 3 categories. |
 | A5 | Defer mixed-use and commercial office industry pages? | No case studies or industry-specific proof exists. | Minimal impact — not in current sitemap. |
@@ -250,46 +250,39 @@
 
 ## 11. Immediate Next Actions
 
-> **BLOCKING: G2 requires owner validation before G3 can begin.**
-
-### G2 — Conversion Architecture (FINAL — LOCKED)
+### G4 — Content Production (IN PROGRESS — Batch 4A Complete)
 
 | # | Action | Priority | Dependency | Estimated Effort |
 |---|--------|----------|------------|-----------------|
-| 1 | **Owner reviews and validates docs/02_CONVERSION_ARCHITECTURE.md** | 🔴 P0 | None (blocking G3) | Owner review |
-| 2 | **Owner decides on 7 open architecture questions (A1-A7)** | 🔴 P0 | #1 | Owner decision |
-| 2a | Provide canonical product names, slugs, and specs (A1) | 🔴 P0 | #1 | Owner data |
-| 2b | Approve or reject 5-item nav + CTA button (A2) | 🔴 P0 | #1 | Owner decision |
-| 2c | ~~Approve or reject Returns/Warranty merge (A3)~~ | ✅ RESOLVED | #1 | ✅ LOCKED — Both pages remain, content dedup applied |
-| 2d | Provide product definitions for 3 missing categories (A4) | 🔴 P0 | #1 | Owner data |
-| 2e | Provide pricing data or confirm "Request a Quote" model (A7) | 🟡 P1 | #1 | Owner data |
+| 1 | **Owner authorizes next batch (4B+)** | 🔴 P0 | G4A complete | Owner decision |
+| 2 | Provide canonical product names, slugs, and specs (A1) | 🔴 P0 | None | Owner data |
+| 3 | Provide product definitions for 3 missing categories (A4) | 🔴 P0 | None | Owner data |
+| 4 | Provide pricing data or confirm "Request a Quote" model (A7) | 🟡 P1 | None | Owner data |
 
-### G3 — Page Models (NEXT — blocked by G2)
+### Remaining Owner Dependencies
 
-| # | Action | Priority | Dependency | Estimated Effort |
-|---|--------|----------|------------|-----------------|
-| 3 | Build solution page model (template for all 6 solution pages) | 🔴 P0 | G2 approved | 1 turn |
-| 4 | Build industry page model (template for all 3 industry pages) | 🔴 P0 | #3 | 0.5 turn |
-| 5 | Build case study model (template for all 5 case studies) | 🔴 P0 | #3 | 0.5 turn |
-| 6 | Build catalogue listing page model (template for all 6 catalogue pages) | 🔴 P0 | #3, product data (A1/A4) | 0.5 turn |
-| 7 | Build product detail page model (template for all product pages) | 🔴 P0 | #6 | 0.5 turn |
-| 8 | Build homepage model | 🔴 P0 | #3-#7 | 1 turn |
-| 9 | Build support page models (About, FAQ, Warranty, Contact) | 🔴 P0 | #3 | 1 turn |
-| 10 | Validate/clean wizard model | 🟡 P1 | #3 | 0.5 turn |
-| 11 | Owner validates all G3 page models | 🔴 P0 | #3-#10 | Owner review |
-
-### BLOCKED — Cannot start until G3 is validated
-
-| # | Action | Gate | Status |
-|---|--------|------|--------|
-| All page content writing/rewriting | G4 | BLOCKED by G2 → G3 |
-| Catalogue listing page creation | G4 | BLOCKED by G2 → G3 |
-| Product detail page creation (split from bundles) | G4 | BLOCKED by G2 → G3 |
-| Final QA pass | G6 | BLOCKED by G4 → G5 |
+| # | Question | Impact |
+|---|----------|--------|
+| A1 | Canonical product names, slugs, specs for all categories | Blocks catalogue + product detail page production |
+| A4 | Product definitions for Shower Glass, Architectural Glass, Standard Mirrors | Blocks PDP production for 3 categories (60 pages) |
+| A5 | Defer mixed-use and commercial office industry pages? | Minimal impact — not in current sitemap |
+| A7 | Real pricing data or "Request a Quote" model | Impacts all catalogue and product detail pages |
 
 ---
 
 ## 12. Change Log / Turn History
+
+### Turn 7 — 2026-04-08 (Stabilization Pass — Solution Pages)
+
+| Action | Detail |
+|--------|--------|
+| **Added** | Dedicated Criterion #5 (Instant AI Estimate) block to all 6 solution pages (Block 7) — restored as explicit section per owner directive |
+| **Cleaned** | French phrasing from all solution-page headings — 5 criterion names translated to English (Fiabilité Long Terme → Long-Term Reliability, Prix Compétitif → Competitive Pricing, Delivery Porte-à-Porte → Door-to-Door Delivery, Flexibilité → Flexibility, Grand Choix Produits → Wide Product Selection)
+| **Added** | 16 case study links across all 6 solution pages — linked to valid /case-studies/[slug] routes in Industry Relevance blocks |
+| **Renumbered** | All solution page blocks from 14 to 15 to accommodate new Criterion #5 block |
+| **Cleaned** | WorkProgress — removed stale G2/G3 blocking language, resolved A2 (nav already locked), aligned Immediate Next Actions to current G4 state |
+| **Verified** | Zero French criterion names remain in solution page headings |
+| **Verified** | Locked governance docs (00, 02, 03) were not modified |
 
 ### Turn 6 — 2026-04-08 (Gate 4A — Compressed Batch: Solution Pages + Industry Pages)
 
@@ -306,7 +299,7 @@
 | **Added** | Industry Challenge sections to all 3 industry pages (Block 2 — 2-3 paragraphs of vertical-specific challenges) |
 | **Added** | 7 HILO Advantages (prose) to all 3 industry pages (Block 3 — industry-customized criteria) |
 | **Removed** | French metadata from all 9 files (Projet, Titre, PRINCIPAL, SECONDAIRE, Critère, Avantages Clés, Produits Recommandés) |
-| **Removed** | Dedicated AI Estimate sections from solution pages (Criterion #5 served through CTAs) |
+| **Restored** | Dedicated Criterion #5 (Instant AI Estimate) blocks on all 6 solution pages as explicit sections |
 | **Removed** | Duplicate "Complete Product Range" sections (consolidated into Criterion #6) |
 | **Fixed** | Château Frontenac error on Senior Living page (replaced with correct senior living case study reference) |
 | **Fixed** | CTA link targets on all 9 pages (Primary → `/solutions/[slug]/catalogue` or `/estimate`, Secondary → `/contact`) |

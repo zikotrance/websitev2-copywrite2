@@ -24,7 +24,7 @@ Standard mirrors are flat, silvered glass panels used in commercial, hospitality
 
 ---
 
-## Block 3: Criterion #1 — Fiabilité Long Terme (Long-Term Reliability)
+## Block 3: Criterion #1 — Long-Term Reliability
 
 ## The Mirror Quality Problem — And How HILO Solves It
 
@@ -38,7 +38,7 @@ Our 5-year warranty covers the defects that other mirror warranties specifically
 
 ---
 
-## Block 4: Criterion #2 — Prix Compétitif (Competitive Pricing)
+## Block 4: Criterion #2 — Competitive Pricing
 
 ## Commercial Quality at Competitive Prices
 
@@ -54,7 +54,7 @@ Volume discounts reward larger projects with meaningful cost reductions. Orders 
 
 ---
 
-## Block 5: Criterion #3 — Delivery Porte-à-Porte (Door-to-Door Delivery)
+## Block 5: Criterion #3 — Door-to-Door Delivery
 
 ## Safe Delivery for Every Mirror, Every Time
 
@@ -68,7 +68,7 @@ Our damage-free guarantee eliminates the risk and frustration of freight damage.
 
 ---
 
-## Block 6: Criterion #4 — Flexibilité (Flexibility)
+## Block 6: Criterion #4 — Flexibility
 
 ## Standard Sizes or Custom Dimensions
 
@@ -92,7 +92,21 @@ Custom mirrors are fabricated to your exact specifications when standard sizes d
 
 ---
 
-## Block 7: Criterion #6 — Grand Choix Produits (Wide Product Selection)
+## Block 7: Criterion #5 — Instant AI Estimate
+
+## Mirror Pricing in 60 Seconds — No Phone Calls, No Hassle
+
+Commercial mirror procurement should be straightforward, but traditional quoting processes make it anything but. Requests for simple per-square-foot pricing require phone calls to sales representatives who want to schedule discovery meetings before sharing any numbers. Quotes that eventually arrive often exclude delivery, edge treatments, or safety backing — critical line items that surface later as additional costs. For multi-property developers ordering mirrors across hundreds of units in multiple buildings, the quoting overhead diverts procurement resources from more consequential project decisions.
+
+HILO's AI estimation tool delivers complete, transparent mirror pricing in under sixty seconds. Enter your mirror type — wall, vanity, gym, or safety — along with dimensions, edge treatment preferences, and quantity. The estimate includes per-unit pricing, volume discount tiers, delivery costs, and lead times for both standard and custom sizes. No registration is required, no sales representative will call you unless you request it, and there is zero obligation to purchase. Custom mirror requirements such as non-standard dimensions, arch-top shapes, or special edge treatments are automatically flagged for personalized follow-up from our commercial team within twenty-four hours.
+
+Procurement teams across 180+ HILO projects use the estimation tool to accelerate their mirror specification process. Compare pricing between mirror types and thickness options in real time. Model different quantity scenarios for multi-phase construction schedules. Generate separate estimates for different building types or unit categories and save them for stakeholder review. Multi-product estimates that include standard mirrors alongside LED mirrors, medicine cabinets, or shower glass are handled within a single consolidated quote, simplifying procurement for full-property renovation packages.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8: Criterion #6 — Wide Product Selection
 
 ## Mirrors for Every Commercial Application
 
@@ -118,7 +132,7 @@ Safety mirrors incorporate protective features required for specific commercial 
 
 ---
 
-## Block 8: Criterion #7 — Installation
+## Block 9: Criterion #7 — Installation
 
 ## Professional Installation by Certified Partners
 
@@ -130,7 +144,7 @@ Installation services are available across most major metropolitan areas in Cana
 
 ---
 
-## Block 9: Comparison Block
+## Block 10: Comparison Block
 
 ## HILO Standard Mirrors vs. Generic Alternatives
 
@@ -155,7 +169,7 @@ The commercial reality is clear. Generic mirrors save a few dollars per unit at 
 
 ---
 
-## Block 10: Specification Table
+## Block 11: Specification Table
 
 ## Standard Mirror Specifications
 
@@ -178,7 +192,7 @@ The commercial reality is clear. Generic mirrors save a few dollars per unit at 
 
 ---
 
-## Block 11: Cross-Sell Section
+## Block 12: Cross-Sell Section
 
 ## Complete Your Project with Complementary HILO Products
 
@@ -198,7 +212,7 @@ Medicine cabinets paired with standard mirrors provide the complete bathroom sol
 
 ---
 
-## Block 12: Industry Relevance Block
+## Block 13: Industry Relevance Block
 
 ## Standard Mirror Solutions by Industry
 
@@ -208,11 +222,15 @@ HILO standard mirrors serve commercial sectors where mirror quality directly imp
 
 Hotels use mirrors more extensively than almost any other commercial property type. Guest room vanity mirrors are used daily by every occupant. Hallway and corridor mirrors create the perception of spaciousness and add light to circulation areas. Lobby mirrors serve as design features that reinforce brand positioning. Fitness center mirrors enable guests to maintain exercise routines during their stay. Across all these applications, mirror quality is immediately visible to guests and directly influences their perception of property standards. HILO's 5-year warranty ensures that hotel operators are not replacing degraded mirrors on a revolving cycle, and our copper-free silvering resists the humidity that plagues hotel bathrooms and pool areas.
 
+[Read the Hotel Chain Rollup Case Study →](/case-studies/hotel-chain-rollup)
+
 [Learn About Our Hotel Solutions →](/industries/hotels)
 
 ### Real Estate — Condo Common Areas and Gyms
 
 Multi-family residential developments specify mirrors in lobbies, fitness centers, mail rooms, and common area corridors. These mirrors must maintain their appearance through years of daily use by hundreds of residents without generating maintenance complaints that burden property management teams. HILO's competitive pricing and volume discounts are particularly relevant for multi-family developers who order mirrors across dozens or hundreds of units in a single project. Coordinated delivery schedules that align to building phases, consolidated invoicing across product categories, and a single warranty contact simplify project management for development teams managing complex timelines and budgets.
+
+[Read the Multi-Family Development Case Study →](/case-studies/multi-family)
 
 [Learn About Our Real Estate Solutions →](/industries/real-estate)
 
@@ -220,11 +238,13 @@ Multi-family residential developments specify mirrors in lobbies, fitness center
 
 Senior living communities use mirrors in common areas, dining rooms, activity rooms, and resident suites. Mirror placement and quality in senior living environments require particular attention because residents spend significant time in common areas and notice quality issues that might be overlooked in transient hospitality settings. Safety-backed mirrors are strongly recommended in senior living applications to prevent injury in the event of breakage. HILO's safety mirror options — including tempered, laminated, and film-backed constructions — provide the protection that senior living operators require. Our experience in senior living projects ensures that mirror specifications account for accessibility requirements and the specific needs of an aging population.
 
+[Read the Senior Living Case Study →](/case-studies/senior-living)
+
 [Learn About Our Senior Living Solutions →](/industries/senior-living)
 
 ---
 
-## Block 13: FAQ Block
+## Block 14: FAQ Block
 
 ## Frequently Asked Questions About Standard Mirrors
 
@@ -250,7 +270,7 @@ Hotel fitness center mirrors should be specified to provide full-body reflection
 
 ---
 
-## Block 14: Final CTA Section
+## Block 15: Final CTA Section
 
 ## Explore Our Standard Mirror Collection
 

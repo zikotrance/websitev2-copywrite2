@@ -22,7 +22,7 @@ Medicine cabinets are wall-mounted or recessed storage units with mirrored or se
 
 ---
 
-## Block 3 — Criterion #1: Fiabilité Long Terme
+## Block 3 — Criterion #1: Long-Term Reliability
 
 ### The Medicine Cabinet Problem No One Talks About — Solved
 
@@ -42,7 +42,7 @@ HILO medicine cabinets are engineered to prevent every one of these common failu
 
 ---
 
-## Block 4 — Criterion #2: Prix Compétitif
+## Block 4 — Criterion #2: Competitive Pricing
 
 ### Quality Medicine Cabinets at Competitive Prices
 
@@ -62,7 +62,7 @@ The total cost of ownership analysis strongly favors HILO medicine cabinets. Whi
 
 ---
 
-## Block 5 — Criterion #3: Delivery Porte-à-Porte
+## Block 5 — Criterion #3: Door-to-Door Delivery
 
 ### Delivered Ready to Install
 
@@ -82,7 +82,7 @@ Our door-to-door delivery system covers both Canada and the United States, with 
 
 ---
 
-## Block 6 — Criterion #4: Flexibilité
+## Block 6 — Criterion #4: Flexibility
 
 ### Standard Sizes or Custom Configurations
 
@@ -103,7 +103,21 @@ When standard sizes and configurations do not fit your project requirements, HIL
 
 ---
 
-## Block 7 — Criterion #6: Grand Choix Produits
+## Block 7 — Criterion #5: Instant AI Estimate
+
+### Cabinet Pricing in 60 Seconds — No Sales Call, No Waiting
+
+Procurement teams specifying medicine cabinets for commercial projects know the frustration of traditional quoting processes. Phone calls that lead to more phone calls. Days of waiting for responses that arrive incomplete and require clarification. Pricing that varies depending on which sales representative handles your request. For multi-family developments and hotel renovations where hundreds of cabinets must be specified across multiple unit types and buildings, this quoting overhead adds real time to procurement cycles and delays construction schedules.
+
+HILO's AI estimation tool resolves this inefficiency with instant, accurate quoting. Select your medicine cabinet configuration — mounting type, width, finish, optional LED lighting, and quantity — and receive a fully itemized estimate in under sixty seconds. No registration required, no mandatory sales calls, and no obligation to purchase. The estimate shows per-unit pricing, volume discount tiers, delivery costs, and lead times for both catalogue and custom configurations. Custom medicine cabinet requirements such as non-standard dimensions, integrated electrical outlets, or ADA-compliant specifications are automatically flagged for personal follow-up from our commercial team within twenty-four hours.
+
+Commercial buyers across 180+ HILO projects use the estimation tool to accelerate their procurement process. Compare pricing across mounting types to optimize cost per unit. Model different quantity scenarios for multi-phase construction schedules. Generate estimates for multiple properties or building types and save them for stakeholder review. When ready to proceed, converting an estimate to a purchase order requires a single action — no revised quotes, no renegotiation, and no surprises. The result is a procurement experience that respects your timeline and your budget.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8 — Criterion #6: Wide Product Selection
 
 ### More Than Medicine Cabinets
 
@@ -117,7 +131,7 @@ Consolidating your bathroom glass and mirror procurement with HILO simplifies yo
 
 ---
 
-## Block 8 — Criterion #7: Installation
+## Block 9 — Criterion #7: Installation
 
 ### Professional Installation Available
 
@@ -137,7 +151,7 @@ For projects where your own crews will handle installation, HILO medicine cabine
 
 ---
 
-## Block 9 — Comparison Block
+## Block 10 — Comparison Block
 
 ### HILO Medicine Cabinets vs. Generic Alternatives
 
@@ -160,7 +174,7 @@ The most critical difference is longevity. Generic medicine cabinets typically b
 
 ---
 
-## Block 10 — Specification Table
+## Block 11 — Specification Table
 
 ### Medicine Cabinet Specifications
 
@@ -189,7 +203,7 @@ HILO medicine cabinets are available in four mounting types with a wide range of
 
 ---
 
-## Block 11 — Cross-Sell Section
+## Block 12 — Cross-Sell Section
 
 ### Complete Your Bathroom With Related Solutions
 
@@ -207,7 +221,7 @@ When your project involves a full bathroom renovation, specifying HILO shower gl
 
 ---
 
-## Block 12 — Industry Relevance Block
+## Block 13 — Industry Relevance Block
 
 ### Medicine Cabinets Across Industries
 
@@ -217,17 +231,23 @@ HILO medicine cabinets serve multiple commercial sectors, each with specific req
 
 Medicine cabinets are a standard specification in hotel guest room bathrooms, providing essential storage space for personal items while maintaining a clean, professional appearance. Hotel guests expect medicine cabinets to function flawlessly—doors that open and close smoothly, shelves that hold their belongings without sagging, and mirrors that provide a clear reflection without moisture spots or edge deterioration. HILO medicine cabinets meet these expectations with soft-close hinges that prevent slamming noises that disturb adjacent guests, moisture-resistant construction that withstands the high-humidity conditions of continuously occupied bathrooms, and tempered glass mirrors that maintain clarity for years. The sub-0.5% failure rate is particularly valuable for hotel operators managing hundreds or thousands of rooms, where even a small percentage of cabinet failures generates significant maintenance burden.
 
+[Read the Hotel Chain Rollup Case Study →](/case-studies/hotel-chain-rollup)
+
 **Real Estate Development — Multi-Family Bathroom Packages**
 
 Multi-family residential developers specify medicine cabinets in quantity, often outfitting hundreds of bathroom vanities across multiple buildings in a single development. Cabinet quality directly impacts buyer perception during model home tours and renter satisfaction after move-in, making medicine cabinets a surprisingly influential component of the overall property experience. HILO's volume pricing programs and multi-site delivery capabilities are specifically designed for multi-family developments, offering competitive pricing on large orders with staged deliveries that match construction phasing across multiple buildings. The 5-year warranty provides developers with after-sale confidence that reduces warranty reserve requirements and minimizes post-closing service obligations.
+
+[Read the Multi-Family Development Case Study →](/case-studies/multi-family)
 
 **Senior Living — ADA-Compliant Storage Solutions**
 
 Senior living communities have specific medicine cabinet requirements that go beyond standard commercial specifications. ADA-compliant mounting heights ensure accessibility for residents using wheelchairs or mobility aids. Easy-to-grasp handles accommodate residents with limited hand strength or dexterity. Adequate interior storage capacity accommodates the medications and personal care items that are part of daily life in senior living environments. HILO offers select medicine cabinet models designed to meet ADA reach range and mounting height requirements, with hardware options selected for accessibility. The reliable soft-close hinge mechanism is particularly valued in senior living settings, where the absence of slamming doors contributes to a calm, comfortable residential environment.
 
+[Read the Senior Living Case Study →](/case-studies/senior-living)
+
 ---
 
-## Block 13 — FAQ Block
+## Block 14 — FAQ Block
 
 ### Frequently Asked Questions About Medicine Cabinets
 
@@ -253,7 +273,7 @@ HILO medicine cabinets are available in a range of hardware finishes designed to
 
 ---
 
-## Block 14 — Final CTA Section
+## Block 15 — Final CTA Section
 
 ### Ready to Specify Medicine Cabinets That Last?
 

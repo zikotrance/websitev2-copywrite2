@@ -24,7 +24,7 @@ Commercial shower glass refers to tempered safety glass enclosures engineered fo
 
 ---
 
-## Block 3: Criterion #1 — Fiabilité Long Terme (Long-Term Reliability)
+## Block 3: Criterion #1 — Long-Term Reliability
 
 ## Why Budget Shower Glass Costs More in the Long Run
 
@@ -36,7 +36,7 @@ Our 5-year warranty covers every critical component without pro-rating. If a pan
 
 ---
 
-## Block 4: Criterion #2 — Prix Compétitif (Competitive Pricing)
+## Block 4: Criterion #2 — Competitive Pricing
 
 ## Premium Shower Glass at Competitive Prices
 
@@ -48,7 +48,7 @@ We provide transparent, itemized pricing that separates glass, hardware, seals, 
 
 ---
 
-## Block 5: Criterion #3 — Delivery Porte-à-Porte (Door-to-Door Delivery)
+## Block 5: Criterion #3 — Door-to-Door Delivery
 
 ## Specialized Handling for Fragile Materials
 
@@ -60,7 +60,7 @@ The delivery process follows a structured six-step sequence. Order confirmation 
 
 ---
 
-## Block 6: Criterion #4 — Flexibilité (Flexibility)
+## Block 6: Criterion #4 — Flexibility
 
 ## Standard Configurations or Custom Fit — Your Choice
 
@@ -83,7 +83,21 @@ When your bathroom layout does not fit standard dimensions, our custom program d
 
 ---
 
-## Block 7: Criterion #6 — Grand Choix Produits (Wide Product Selection)
+## Block 7: Criterion #5 — Instant AI Estimate
+
+## Shower Glass Pricing in 60 Seconds — No Delays, No Sales Pressure
+
+Shower glass quoting for commercial projects is notoriously slow and opaque. Glass fabricators often require site measurements before providing any pricing. Quotes that do arrive frequently exclude critical line items such as hardware, seals, delivery, or installation — only for those costs to surface later as change orders. For hotel renovations and multi-family developments where shower enclosures number in the hundreds across multiple buildings, this quoting process adds weeks to procurement timelines and creates budget uncertainty that complicates project financing.
+
+HILO's AI estimation tool delivers transparent, complete pricing in under sixty seconds. Specify your enclosure type — framed, semi-frameless, or frameless — along with glass thickness, hardware finish, and quantity. The tool generates an itemized estimate covering glass panels, all hardware components, seals, delivery, and available volume discounts with no hidden line items. Standard catalogue configurations receive instant pricing, while custom enclosure requirements such as non-standard dimensions or specialized glass types are flagged for personalized follow-up from our commercial team within twenty-four hours.
+
+Procurement teams across 180+ HILO projects rely on the estimation tool to streamline their specification workflow. Compare pricing between enclosure types and framing styles in real time. Adjust quantities across building phases and see instant budget impact for each phase. Save estimates for future reference or share them with architects and project managers for faster approval cycles. The tool handles multi-product orders — shower glass alongside LED mirrors and medicine cabinets — within a single consolidated quote, simplifying procurement for full bathroom renovation packages.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8: Criterion #6 — Wide Product Selection
 
 ## 20 Models Across Every Shower Enclosure Style
 
@@ -97,7 +111,7 @@ Beyond our shower glass catalogue, HILO maintains a full portfolio of complement
 
 ---
 
-## Block 8: Criterion #7 — Installation
+## Block 9: Criterion #7 — Installation
 
 ## Professional Installation by Certified Partners
 
@@ -109,7 +123,7 @@ Our certified installation partners provide five core services. Precision measur
 
 ---
 
-## Block 9: Comparison Block
+## Block 10: Comparison Block
 
 ## HILO Shower Glass vs. Generic Alternatives
 
@@ -133,7 +147,7 @@ The bottom line is straightforward. Generic shower glass may present a lower upf
 
 ---
 
-## Block 10: Specification Table
+## Block 11: Specification Table
 
 ## Shower Glass Specifications
 
@@ -155,7 +169,7 @@ The bottom line is straightforward. Generic shower glass may present a lower upf
 
 ---
 
-## Block 11: Cross-Sell Section
+## Block 12: Cross-Sell Section
 
 ## Complete Your Bathroom Project with HILO
 
@@ -175,7 +189,7 @@ Medicine cabinets paired with shower glass enclosures provide the complete bathr
 
 ---
 
-## Block 12: Industry Relevance Block
+## Block 13: Industry Relevance Block
 
 ## Shower Glass Solutions by Industry
 
@@ -185,11 +199,15 @@ HILO shower glass serves diverse commercial sectors, each with distinct requirem
 
 Hotel guest bathrooms represent the highest-volume application for commercial shower glass. With hundreds of enclosures per property and daily use by different guests, the reliability demands are extreme. HILO's sub-0.5% failure rate and 5-year warranty directly address the hospitality industry's need for minimal maintenance disruption and consistently positive guest experiences. Our catalogue of 20 models covers the most common hotel bathroom layouts, and our custom program accommodates unique architectural designs in boutique and luxury properties.
 
+[Read the Hotel Chain Rollup Case Study →](/case-studies/hotel-chain-rollup)
+
 [Learn About Our Hotel Solutions →](/industries/hotels)
 
 ### Real Estate — Multi-Family Bathrooms
 
 Multi-family residential developments require shower glass that balances cost efficiency with long-term durability. Property managers need enclosures that perform for years without generating maintenance tickets that consume staff time and erode resident satisfaction. HILO's competitive pricing, volume discounts, and 5-year warranty make our shower glass the ideal specification for condo and apartment bathroom packages ranging from 50 to 500+ units.
+
+[Read the Multi-Family Development Case Study →](/case-studies/multi-family)
 
 [Learn About Our Real Estate Solutions →](/industries/real-estate)
 
@@ -197,11 +215,13 @@ Multi-family residential developments require shower glass that balances cost ef
 
 Senior living communities have specific requirements for accessibility, safety, and ease of use. Walk-in shower configurations without doors or curbs reduce trip hazards for residents with mobility limitations. Grab bar-compatible hardware, lower threshold options, and ADA-compliant configurations are available across our product range. HILO's experience in senior living projects ensures that shower glass specifications account for the unique needs of this population while maintaining the same commercial-grade quality and warranty coverage.
 
+[Read the Senior Living Case Study →](/case-studies/senior-living)
+
 [Learn About Our Senior Living Solutions →](/industries/senior-living)
 
 ---
 
-## Block 13: FAQ Block
+## Block 14: FAQ Block
 
 ## Frequently Asked Questions About Commercial Shower Glass
 
@@ -227,7 +247,7 @@ Framed enclosures use a metal frame around each glass panel, providing the most 
 
 ---
 
-## Block 14: Final CTA Section
+## Block 15: Final CTA Section
 
 ## Explore Our Shower Glass Solutions
 

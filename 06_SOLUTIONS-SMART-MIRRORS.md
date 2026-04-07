@@ -22,7 +22,7 @@ Smart mirrors are interactive mirror products that integrate high-definition dis
 
 ---
 
-## Block 3 — Criterion #1: Fiabilité Long Terme
+## Block 3 — Criterion #1: Long-Term Reliability
 
 ### Smart Mirrors That Actually Stay Smart
 
@@ -42,7 +42,7 @@ The data tells the full story: HILO smart mirrors have a documented 0.3% failure
 
 ---
 
-## Block 4 — Criterion #2: Prix Compétitif
+## Block 4 — Criterion #2: Competitive Pricing
 
 ### Smart Mirror Technology at Competitive Prices
 
@@ -62,7 +62,7 @@ The total cost of ownership comparison is even more compelling. Our 5-year warra
 
 ---
 
-## Block 5 — Criterion #3: Delivery Porte-à-Porte
+## Block 5 — Criterion #3: Door-to-Door Delivery
 
 ### Smart Delivery for Smart Products
 
@@ -82,7 +82,7 @@ Our door-to-door delivery service covers both Canada and the United States, with
 
 ---
 
-## Block 6 — Criterion #4: Flexibilité
+## Block 6 — Criterion #4: Flexibility
 
 ### Standard or Custom. Both Are Smart Choices.
 
@@ -104,7 +104,21 @@ The decision between catalogue and custom often comes down to timeline, quantity
 
 ---
 
-## Block 7 — Criterion #6: Grand Choix Produits
+## Block 7 — Criterion #5: Instant AI Estimate
+
+### Smart Mirror Pricing in 60 Seconds — No Waiting, No Sales Pressure
+
+Specifying smart mirror technology for a commercial project often triggers a lengthy and frustrating procurement process. Sales representatives require introductory calls before sharing any pricing. Quotes take days or weeks to arrive, and by the time they do, project timelines have shifted or budgets have been reallocated. For multi-property rollouts where smart mirrors may be specified for suites and premium rooms while standard LED mirrors are used elsewhere, managing separate quoting processes across product categories compounds the delay and administrative burden.
+
+HILO's AI estimation tool eliminates this procurement bottleneck. Specify your smart mirror requirements — model preferences, quantities, feature configurations, and any custom needs — and receive an accurate, itemized estimate in under sixty seconds. No registration walls, no mandatory sales calls, and no obligation to proceed. The estimate includes per-unit pricing for each configuration, delivery costs to your project location, and volume discount tiers that update in real time as you adjust quantities. For custom smart mirror projects requiring PMS integration, branded interfaces, or unique mounting specifications, the tool identifies these as custom requirements and routes them to our commercial team for personalized follow-up within twenty-four hours.
+
+Commercial procurement teams across 180+ HILO projects have used the estimation tool to streamline their specification process. Compare pricing between smart mirror and LED mirror configurations to build tiered guest room packages. Model different quantity scenarios across building phases. Save estimates for future reference or share them directly with project stakeholders for faster approval cycles. When you are ready to commit, converting an estimate to an order requires a single click — no renegotiation, no revised quotes, no surprises.
+
+[Get Your Instant AI Estimate →](/estimate)
+
+---
+
+## Block 8 — Criterion #6: Wide Product Selection
 
 ### Technology Built for Real Commercial Use
 
@@ -124,7 +138,7 @@ Optional upgrades extend the smart mirror's capabilities for properties that nee
 
 ---
 
-## Block 8 — Criterion #7: Installation
+## Block 9 — Criterion #7: Installation
 
 ### Expert Installation for Complex Technology
 
@@ -144,7 +158,7 @@ Geographic coverage spans both Canada and the United States, with installation p
 
 ---
 
-## Block 9 — Comparison Block
+## Block 10 — Comparison Block
 
 ### HILO Smart Mirrors vs. Generic Alternatives
 
@@ -166,7 +180,7 @@ The most striking difference is in long-term reliability. A property installing 
 
 ---
 
-## Block 10 — Specification Table
+## Block 11 — Specification Table
 
 ### Smart Mirror Specifications
 
@@ -196,7 +210,7 @@ HILO smart mirrors are available in multiple sizes and configurations designed f
 
 ---
 
-## Block 11 — Cross-Sell Section
+## Block 12 — Cross-Sell Section
 
 ### Complete Your Specification With Related Solutions
 
@@ -214,7 +228,7 @@ The guest experience begins in the lobby, not the guest room. HILO's architectur
 
 ---
 
-## Block 12 — Industry Relevance Block
+## Block 13 — Industry Relevance Block
 
 ### Smart Mirrors Across Industries
 
@@ -224,13 +238,17 @@ Smart mirror technology delivers unique value propositions across multiple comme
 
 Smart mirrors have become a key differentiator for hotels seeking to elevate the guest experience beyond standard amenities. HILO smart mirrors integrate directly with major hotel property management systems, allowing guests to view folio charges, order room service, request housekeeping, and explore hotel services from the convenience of their bathroom mirror. For hotel brands with strict design and experience standards, our custom branding capabilities ensure that the smart mirror interface reflects the brand's visual identity and content guidelines. The 0.3% five-year failure rate is particularly critical in hospitality, where a non-functional smart mirror in a guest room generates immediate negative reviews and damages the brand experience that the technology was intended to enhance.
 
+[Read the Boutique Hotel Case Study →](/case-studies/boutique-hotel)
+
 **Senior Living — Safety Monitoring and Accessibility Features**
 
 Senior living communities face unique challenges when adopting technology: residents may have limited familiarity with digital interfaces, safety is paramount, and maintenance responsiveness directly impacts resident wellbeing. HILO smart mirrors address these challenges with intuitive touch interfaces that require no training, high-brightness displays that accommodate varying vision levels, and reliable construction that minimizes the maintenance burden on facility staff. The temperature-tested and humidity-tested construction ensures consistent performance regardless of environmental conditions, and the absence of cameras and voice recording technology respects resident privacy expectations. Properties implementing smart mirrors in common areas and model suites report positive feedback from both residents and touring families who view the technology as a marker of a forward-thinking, well-equipped community.
 
+[Read the Senior Living Case Study →](/case-studies/senior-living)
+
 ---
 
-## Block 13 — FAQ Block
+## Block 14 — FAQ Block
 
 ### Frequently Asked Questions About Smart Mirrors
 
@@ -256,7 +274,7 @@ The value proposition of smart mirrors for mid-scale properties depends on the c
 
 ---
 
-## Block 14 — Final CTA Section
+## Block 15 — Final CTA Section
 
 ### Ready to Transform Your Guest Experience?
 
